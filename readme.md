@@ -1,117 +1,91 @@
-## UNDER MAINTENANCE WiLL LIVE SOON
+<div align="center">
 
-<!-- <center>
-<h1 style="text-align: center;">Hi, I'm Muhammad Rutaab Ali</h1> 
-<img src="https://img.shields.io/static/v1?label=fake+profile+views&message=99999&color=grey&style=for-the-badge">
-<h3 style="text-align: center;">A passionate Web developer</h3>
-</center>
-<h2>About Me:</h2>
-<ul>
-  <li>I'm currently working on <strong>Improving my javascript knowledge</strong></li>
-  <li>I'm currently learning <strong>ASP.NET + SQL SERVER</strong></li>
-  <li>I'm looking to collaborate on <strong>Any of my project</strong></li>
-  <li>I'm looking for help with <strong>UI/UX as its the most imp part of Front End</strong></li>
-  <li>Ask me about <strong>How to use AI to create hillarious content of your freinds</strong></li>
-  <li>How to reach me <strong>rutaabali3@gmail.com</strong></li>
-  <li>Fun fact <strong>I think I am funny . Do you think so???</strong></li>
-  <li>All of my projects are available at <a href="https://github.com/Rutaab3">https://github.com/Rutaab3</a></li>
-  <li>My articles? Well I dont write articles</li>
-  <li>Know about my experiences <a href="https://github.com/Rutaab3">https://github.com/Rutaab3</a></li>
-</ul>
+# Muhammad Rutaab Ali
 
-<h2>Tech Stack:</h2>
-<div class="badges">
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
-  <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
-  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</div>
- 
-<h2>GitHub Stats:</h2>
-<div class="streak-card">
-  <h1 class="streak-title">My GitHub Streak Stats</h1>
+### Web Developer · E-commerce & SEO Specialist
 
- <table>
-        <thead>
-            <tr>
-                <th class="streak-label-main">Current Streak</th>
-                <th class="streak-label-main">Longest Streak</th>
-                <th class="streak-label-main">Contributions since Apr 2025</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="streak-stat">
-                <td id="current-streak-num" class="streak-number-big">1</td>
-                <td id="longest-streak-num" class="streak-number-big">10</td>
-                <td id="total-contributions-num" class="streak-number-big">620</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+I build **responsive web experiences**, practical **e-commerce tools**, and search-friendly digital products that help ideas become useful.
 
-<h2 style="background-color: lightblue;">Random Dev Quote</h2>
-<div class="quote">
+<p>
+  <a href="https://rutaabali3.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-7d46ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:rutaabali3@gmail.com"><img src="https://img.shields.io/badge/Email-ff5f7e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/rutaabali3"><img src="https://img.shields.io/badge/GitHub-15132b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
 
-> <p>Talk is cheap. Show me the code.  <strong>Linus Torvalds</strong></p>
-
-> <p>Code is like humor. When you have to explain it, it's bad.  <strong>Cory House</strong></p>
-
-> <p>First, solve the problem. Then, write the code.  <strong>John Johnson</strong></p>
-
-> <p>Any fool can write code that a computer can understand. Good programmers write code that humans can understand.  <strong>Martin Fowler</strong></p>
-
-> <p>The best error message is the one that never shows up.  <strong>Unknown</strong></p>
-
-> <p>Debugging is twice as hard as writing the code in the first place.  <strong>Brian Kernighan</strong></p>
-
-> <p>Premature optimization is the root of all evil.  <strong>Donald Knuth</strong></p>
-
-> <p>Make it work, make it right, make it fast.  <strong>Kent Beck</strong></p>
-
-> <p>Code never lies, comments sometimes do.  <strong>Ron Jeffries</strong></p>
-
-> <p>Simplicity is prerequisite for reliability.  <strong>Edsger Dijkstra</strong></p>
-
-> <p>If debugging is the process of removing software bugs, then programming must be the process of putting them in.  <strong>Edsger Dijkstra</strong></p>
-
-> <p>Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.  <strong>John Woods</strong></p>
-
-> <p>The function of good software is to make the complex appear to be simple.  <strong>Grady Booch</strong></p>
-
-> <p>There's no obfuscated Perl contest because it's pointless.  <strong>Jeff Polk</strong></p>
-
-> <p>Walking on water and developing software from a specification are easy if both are frozen.  <strong>Edward V. Berard</strong></p>
+<img src="./assets/neon-terminal.gif" alt="Animated terminal showing Rutaab Ali's focus and technology stack" width="100%" />
 
 </div>
 
-<h2>Top Contributed Repo</h2>
-<img src="https://github-contributor-stats.vercel.app/api?username=Rutaab3&limit=100&theme=vision-friendly-dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo">
+## A little about me
 
-<img src="https://raw.githubusercontent.com/Rutaab3/Rutaab3/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation">
+I’m **Muhammad Rutaab Ali**, a web developer who enjoys the intersection of thoughtful interfaces, reliable functionality, and measurable online visibility. My work spans front-end development, PHP and Laravel applications, e-commerce listing management, and SEO-minded content structure.
 
- ##  Socials (Don't have any of them):   
-![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)<br>
-![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)<br>
-![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)<br>
-![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)<br>
-![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)<br>
-![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)<br>
-![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)<br>
-![Quora](https://img.shields.io/badge/Quora-%23B92B27.svg?logo=Quora&logoColor=white)<br>
-![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)<br>
-![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)<br>
-![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)<br>
-![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)<br>
-![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)<br>
-![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)<br>
-![Codepen](https://img.shields.io/badge/Codepen-000000?logo=codepen&logoColor=white)<br>
-![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?logo=mastodon&logoColor=white)<br>
+> **My approach:** make the experience feel simple, make the system work hard, and make every detail earn its place.
 
-<!-- > <p>Proudly created with GPRM ( https://gprm.itsvg.in )</p> -->
+<table>
+<tr>
+<td width="50%" valign="top">
 
-</body>
-</html>
+### What I do
+
+- Build clean, responsive websites and interactive pages.
+- Develop practical web solutions with JavaScript, PHP, Laravel, and ASP.NET.
+- Manage e-commerce listings, metadata, pricing, and inventory details.
+- Shape search-friendly structures that make content easier to discover.
+
+</td>
+<td width="50%" valign="top">
+
+### Currently focused on
+
+- Improving JavaScript depth and front-end craft.
+- Creating useful digital experiences for real businesses.
+- Exploring better UI patterns and scalable application structure.
+- Turning rough ideas into polished, working interfaces.
+
+</td>
+</tr>
+</table>
+
+## Toolkit
+
+<p>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+</p>
+
+## Selected work
+
+| Project | What it is | Built with |
+|:--|:--|:--|
+| **BridgeX** | A visual platform exploring remarkable bridges, their engineering, and historical significance. | HTML |
+| **bilal** | A personal website with custom design and interactive features. | JavaScript |
+| **HomeDecor** | A home-decoration experience for catalogs, ideas, and interior inspiration. | CSS |
+
+## Experience snapshot
+
+| Period | Focus |
+|:--|:--|
+| **2023 – 2024** | Social media sales and customer support, managing inquiries, resolving questions, and securing sales. |
+| **2024 – Present** | E-commerce and listing management, optimizing descriptions, pricing, inventory, and product discoverability. |
+
+## Let’s build something useful
+
+Have a project in mind, need a website, or want to discuss e-commerce and SEO optimization? I’d be glad to hear what you’re working on.
+
+<div align="center">
+
+<a href="https://rutaabali3.vercel.app/"><strong>Visit my portfolio →</strong></a>
+
+<br />
+<br />
+
+<sub>Designed with intention. Built with curiosity. Always improving.</sub>
+
+</div>
