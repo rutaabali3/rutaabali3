@@ -13,6 +13,8 @@ I build **responsive web experiences**, practical **e-commerce tools**, and sear
   <a href="https://rutaabali3.vercel.app/resume.pdf"><img src="https://img.shields.io/badge/Resume-ffb000?style=for-the-badge&logo=adobeacrobatreader&logoColor=black" alt="Resume" /></a>
 </p>
 
+[![Rankistan rank badge](https://img.shields.io/endpoint?url=https%3A%2F%2Frankistan-summary-api.academics-ali.workers.dev%2Fapi%2Fbadge%2Frutaabali3&style=for-the-badge)](https://rankistan.dev/#rutaabali3)
+
 <img src="./assets/neon-terminal.gif" alt="Animated terminal showing Rutaab Ali's focus and technology stack" width="100%" />
 
 </div>
