@@ -56,22 +56,22 @@ These are the same visual technology icons used in the **Skills & Tech Stack** s
 
 <table>
 <tr>
-<td align="center"><img src="./assets/skills/filetype-html.svg" width="38" height="38" alt="HTML5" /><br /><sub>HTML5</sub></td>
-<td align="center"><img src="./assets/skills/filetype-css.svg" width="38" height="38" alt="CSS3" /><br /><sub>CSS3</sub></td>
-<td align="center"><img src="./assets/skills/filetype-js.svg" width="38" height="38" alt="JavaScript" /><br /><sub>JavaScript</sub></td>
-<td align="center"><img src="./assets/skills/filetype-js.svg" width="38" height="38" alt="TypeScript" /><br /><sub>TypeScript</sub></td>
-<td align="center"><img src="./assets/skills/filetype-php.svg" width="38" height="38" alt="PHP" /><br /><sub>PHP</sub></td>
-<td align="center"><img src="./assets/skills/code-slash.svg" width="38" height="38" alt="C#" /><br /><sub>C#</sub></td>
-<td align="center"><img src="./assets/skills/layers.svg" width="38" height="38" alt="Laravel" /><br /><sub>Laravel</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/filetype-html.svg" width="38" height="38" alt="HTML5" /><br /><sub>HTML5</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/filetype-css.svg" width="38" height="38" alt="CSS3" /><br /><sub>CSS3</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/filetype-js.svg" width="38" height="38" alt="JavaScript" /><br /><sub>JavaScript</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/filetype-js.svg" width="38" height="38" alt="TypeScript" /><br /><sub>TypeScript</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/filetype-php.svg" width="38" height="38" alt="PHP" /><br /><sub>PHP</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/code-slash.svg" width="38" height="38" alt="C#" /><br /><sub>C#</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/layers.svg" width="38" height="38" alt="Laravel" /><br /><sub>Laravel</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="./assets/skills/globe.svg" width="38" height="38" alt="ASP.NET" /><br /><sub>ASP.NET</sub></td>
-<td align="center"><img src="./assets/skills/bootstrap.svg" width="38" height="38" alt="Bootstrap" /><br /><sub>Bootstrap</sub></td>
-<td align="center"><img src="./assets/skills/filetype-css.svg" width="38" height="38" alt="Tailwind CSS" /><br /><sub>Tailwind CSS</sub></td>
-<td align="center"><img src="./assets/skills/database.svg" width="38" height="38" alt="MySQL" /><br /><sub>MySQL</sub></td>
-<td align="center"><img src="./assets/skills/git.svg" width="38" height="38" alt="Git / GitHub" /><br /><sub>Git / GitHub</sub></td>
-<td align="center"><img src="./assets/skills/search.svg" width="38" height="38" alt="SEO" /><br /><sub>SEO</sub></td>
-<td align="center"><img src="./assets/skills/cart3.svg" width="38" height="38" alt="E-Commerce" /><br /><sub>E-Commerce</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/globe.svg" width="38" height="38" alt="ASP.NET" /><br /><sub>ASP.NET</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/bootstrap.svg" width="38" height="38" alt="Bootstrap" /><br /><sub>Bootstrap</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/filetype-css.svg" width="38" height="38" alt="Tailwind CSS" /><br /><sub>Tailwind CSS</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/database.svg" width="38" height="38" alt="MySQL" /><br /><sub>MySQL</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/git.svg" width="38" height="38" alt="Git / GitHub" /><br /><sub>Git / GitHub</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/search.svg" width="38" height="38" alt="SEO" /><br /><sub>SEO</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/cart3.svg" width="38" height="38" alt="E-Commerce" /><br /><sub>E-Commerce</sub></td>
 </tr>
 </table>
 
