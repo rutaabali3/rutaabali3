@@ -15,7 +15,7 @@ I build **responsive web experiences**, practical **e-commerce tools**, and sear
 
 [![Rankistan rank badge](https://img.shields.io/endpoint?url=https%3A%2F%2Frankistan-summary-api.academics-ali.workers.dev%2Fapi%2Fbadge%2Frutaabali3&style=for-the-badge)](https://rankistan.dev/#rutaabali3)
 
-<img src="./assets/neon-terminal.gif" alt="Animated terminal showing Rutaab Ali's focus and technology stack" width="100%" />
+<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/neon-terminal.gif" alt="Animated terminal showing Rutaab Ali's focus and technology stack" width="100%" />
 
 </div>
 
@@ -50,28 +50,46 @@ I’m **Muhammad Rutaab Ali**, a web developer who enjoys the intersection of th
 </tr>
 </table>
 
-## Toolkit
+## Tech Stack
 
-These are the same visual technology icons used in the **Skills & Tech Stack** section of my portfolio.
+The same colorful technology artwork used in the portfolio’s **Tech Stack** section.
 
 <table>
 <tr>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/filetype-html.svg" width="38" height="38" alt="HTML5" /><br /><sub>HTML5</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/filetype-css.svg" width="38" height="38" alt="CSS3" /><br /><sub>CSS3</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/filetype-js.svg" width="38" height="38" alt="JavaScript" /><br /><sub>JavaScript</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/filetype-js.svg" width="38" height="38" alt="TypeScript" /><br /><sub>TypeScript</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/filetype-php.svg" width="38" height="38" alt="PHP" /><br /><sub>PHP</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/code-slash.svg" width="38" height="38" alt="C#" /><br /><sub>C#</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/layers.svg" width="38" height="38" alt="Laravel" /><br /><sub>Laravel</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/html.png" width="64" height="64" alt="HTML5" /><br /><sub>HTML5</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/css.png" width="64" height="64" alt="CSS3" /><br /><sub>CSS3</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/javascript.png" width="64" height="64" alt="JavaScript" /><br /><sub>JavaScript</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/typescript.png" width="64" height="64" alt="TypeScript" /><br /><sub>TypeScript</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/php.png" width="64" height="64" alt="PHP" /><br /><sub>PHP</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/csharp.png" width="64" height="64" alt="C#" /><br /><sub>C#</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/globe.svg" width="38" height="38" alt="ASP.NET" /><br /><sub>ASP.NET</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/bootstrap.svg" width="38" height="38" alt="Bootstrap" /><br /><sub>Bootstrap</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/filetype-css.svg" width="38" height="38" alt="Tailwind CSS" /><br /><sub>Tailwind CSS</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/database.svg" width="38" height="38" alt="MySQL" /><br /><sub>MySQL</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/git.svg" width="38" height="38" alt="Git / GitHub" /><br /><sub>Git / GitHub</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/search.svg" width="38" height="38" alt="SEO" /><br /><sub>SEO</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/skills/cart3.svg" width="38" height="38" alt="E-Commerce" /><br /><sub>E-Commerce</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/laravel.png" width="64" height="64" alt="Laravel" /><br /><sub>Laravel</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/aspnet.png" width="64" height="64" alt="ASP.NET" /><br /><sub>ASP.NET</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/angular.png" width="64" height="64" alt="Angular" /><br /><sub>Angular</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/tailwind.png" width="64" height="64" alt="Tailwind CSS" /><br /><sub>Tailwind CSS</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/bootstrap.png" width="64" height="64" alt="Bootstrap" /><br /><sub>Bootstrap</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/jquery.png" width="64" height="64" alt="jQuery" /><br /><sub>jQuery</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/gsap.png" width="64" height="64" alt="GSAP" /><br /><sub>GSAP</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/mysql.png" width="64" height="64" alt="MySQL" /><br /><sub>MySQL</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/phpmyadmin.png" width="64" height="64" alt="phpMyAdmin" /><br /><sub>phpMyAdmin</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/sqlserver.png" width="64" height="64" alt="SQL Server" /><br /><sub>SQL Server</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/git.png" width="64" height="64" alt="Git" /><br /><sub>Git</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/github.png" width="64" height="64" alt="GitHub" /><br /><sub>GitHub</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/gitlab.png" width="64" height="64" alt="GitLab" /><br /><sub>GitLab</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/vercel.png" width="64" height="64" alt="Vercel" /><br /><sub>Vercel</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/netlify.png" width="64" height="64" alt="Netlify" /><br /><sub>Netlify</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/firebase.png" width="64" height="64" alt="Firebase" /><br /><sub>Firebase</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/openai.png" width="64" height="64" alt="OpenAI" /><br /><sub>OpenAI</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/anthropic.png" width="64" height="64" alt="Anthropic" /><br /><sub>Anthropic</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/canva.png" width="64" height="64" alt="Canva" /><br /><sub>Canva</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/seo.png" width="64" height="64" alt="SEO" /><br /><sub>SEO</sub></td>
 </tr>
 </table>
 
