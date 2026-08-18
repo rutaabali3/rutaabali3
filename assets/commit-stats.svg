@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-label="Commit activity statistics">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#1f2633"/></linearGradient>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#090714"/><stop offset="1" stop-color="#21113d"/></linearGradient>
   </defs>
-  <rect width="900" height="270" rx="16" fill="url(#bg)" stroke="#30363d"/>
-  <text x="30" y="34" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Commit activity</text>
-  <text x="30" y="58" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="12">Live metrics from GitHub · refreshed daily</text>
-  <rect x="24" y="82" width="204" height="154" rx="12" fill="#161b22" stroke="#30363d"/>
-  <circle cx="52" cy="116" r="12" fill="#58a6ff" opacity=".22"/>
-  <circle cx="52" cy="116" r="5" fill="#58a6ff"/>
-  <text x="76" y="121" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Last 24 hours</text>
-  <text x="48" y="174" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">2</text>
-  <text x="48" y="202" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="12">commits</text>
-  <rect x="240" y="82" width="204" height="154" rx="12" fill="#161b22" stroke="#30363d"/>
-  <circle cx="268" cy="116" r="12" fill="#56d364" opacity=".22"/>
-  <circle cx="268" cy="116" r="5" fill="#56d364"/>
-  <text x="292" y="121" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Current streak</text>
-  <text x="264" y="174" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">3</text>
-  <text x="264" y="202" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="12">consecutive days</text>
-  <rect x="456" y="82" width="204" height="154" rx="12" fill="#161b22" stroke="#30363d"/>
-  <circle cx="484" cy="116" r="12" fill="#a371f7" opacity=".22"/>
-  <circle cx="484" cy="116" r="5" fill="#a371f7"/>
-  <text x="508" y="121" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Most in one day</text>
-  <text x="480" y="174" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">19</text>
-  <text x="480" y="202" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="12">commits on best day</text>
-  <rect x="672" y="82" width="204" height="154" rx="12" fill="#161b22" stroke="#30363d"/>
-  <circle cx="700" cy="116" r="12" fill="#f0883e" opacity=".22"/>
-  <circle cx="700" cy="116" r="5" fill="#f0883e"/>
-  <text x="724" y="121" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Longest streak</text>
-  <text x="696" y="174" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">9</text>
-  <text x="696" y="202" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="12">consecutive days</text>
+  <rect width="900" height="270" rx="16" fill="url(#bg)" stroke="#5b3b8a"/>
+  <text x="30" y="34" fill="#f5eaff" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Commit activity</text>
+  <text x="30" y="58" fill="#c4acd9" font-family="Segoe UI,Arial,sans-serif" font-size="12">Live metrics from GitHub · refreshed daily</text>
+  <rect x="24" y="82" width="204" height="154" rx="12" fill="#100b22" stroke="#49306d"/>
+  <circle cx="52" cy="116" r="12" fill="#a855f7" opacity=".22"/>
+  <circle cx="52" cy="116" r="5" fill="#a855f7"/>
+  <text x="76" y="121" fill="#dfc2ff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Last 24 hours</text>
+  <text x="48" y="174" fill="#f5eaff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">2</text>
+  <text x="48" y="202" fill="#c4acd9" font-family="Segoe UI,Arial,sans-serif" font-size="12">commits</text>
+  <rect x="240" y="82" width="204" height="154" rx="12" fill="#100b22" stroke="#49306d"/>
+  <circle cx="268" cy="116" r="12" fill="#c084fc" opacity=".22"/>
+  <circle cx="268" cy="116" r="5" fill="#c084fc"/>
+  <text x="292" y="121" fill="#dfc2ff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Current streak</text>
+  <text x="264" y="174" fill="#f5eaff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">3</text>
+  <text x="264" y="202" fill="#c4acd9" font-family="Segoe UI,Arial,sans-serif" font-size="12">consecutive days</text>
+  <rect x="456" y="82" width="204" height="154" rx="12" fill="#100b22" stroke="#49306d"/>
+  <circle cx="484" cy="116" r="12" fill="#8b5cf6" opacity=".22"/>
+  <circle cx="484" cy="116" r="5" fill="#8b5cf6"/>
+  <text x="508" y="121" fill="#dfc2ff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Most in one day</text>
+  <text x="480" y="174" fill="#f5eaff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">19</text>
+  <text x="480" y="202" fill="#c4acd9" font-family="Segoe UI,Arial,sans-serif" font-size="12">commits on best day</text>
+  <rect x="672" y="82" width="204" height="154" rx="12" fill="#100b22" stroke="#49306d"/>
+  <circle cx="700" cy="116" r="12" fill="#f0abfc" opacity=".22"/>
+  <circle cx="700" cy="116" r="5" fill="#f0abfc"/>
+  <text x="724" y="121" fill="#dfc2ff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Longest streak</text>
+  <text x="696" y="174" fill="#f5eaff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">9</text>
+  <text x="696" y="202" fill="#c4acd9" font-family="Segoe UI,Arial,sans-serif" font-size="12">consecutive days</text>
 </svg>
