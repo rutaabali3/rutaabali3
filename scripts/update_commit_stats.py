@@ -60,12 +60,12 @@ def longest_run(dates: set[dt.date]) -> int:
 
 
 def card(x: int, color: str, label: str, value: int, detail: str) -> str:
-    return f'''  <rect x="{x}" y="82" width="204" height="154" rx="12" fill="#100b22" stroke="#49306d"/>
+    return f'''  <rect x="{x}" y="82" width="204" height="154" rx="12" fill="#14132f" stroke="#362171"/>
   <circle cx="{x + 28}" cy="116" r="12" fill="{color}" opacity=".22"/>
   <circle cx="{x + 28}" cy="116" r="5" fill="{color}"/>
-  <text x="{x + 52}" y="121" fill="#dfc2ff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">{label}</text>
-  <text x="{x + 24}" y="174" fill="#f5eaff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">{value}</text>
-  <text x="{x + 24}" y="202" fill="#c4acd9" font-family="Segoe UI,Arial,sans-serif" font-size="12">{detail}</text>'''
+  <text x="{x + 52}" y="121" fill="#b58cff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">{label}</text>
+  <text x="{x + 24}" y="174" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">{value}</text>
+  <text x="{x + 24}" y="202" fill="#9e94bb" font-family="Segoe UI,Arial,sans-serif" font-size="12">{detail}</text>'''
 
 
 def main() -> None:
@@ -93,15 +93,15 @@ def main() -> None:
     }
     output = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-label="Commit activity statistics">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#090714"/><stop offset="1" stop-color="#21113d"/></linearGradient>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0c0b1b"/><stop offset="1" stop-color="#171330"/></linearGradient>
   </defs>
-  <rect width="900" height="270" rx="16" fill="url(#bg)" stroke="#5b3b8a"/>
-  <text x="30" y="34" fill="#f5eaff" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Commit activity</text>
-  <text x="30" y="58" fill="#c4acd9" font-family="Segoe UI,Arial,sans-serif" font-size="12">Live metrics from GitHub · refreshed daily</text>
-{card(24, '#a855f7', 'Last 24 hours', values['last_24h'], 'commits')}
-{card(240, '#c084fc', 'Current streak', values['current_streak'], 'consecutive days')}
-{card(456, '#8b5cf6', 'Most in one day', values['most_in_day'], 'commits on best day')}
-{card(672, '#f0abfc', 'Longest streak', values['longest_streak'], 'consecutive days')}
+  <rect width="900" height="270" rx="16" fill="url(#bg)" stroke="#362171"/>
+  <text x="30" y="34" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Commit activity</text>
+  <text x="30" y="58" fill="#9e94bb" font-family="Segoe UI,Arial,sans-serif" font-size="12">Live metrics from GitHub · refreshed daily</text>
+{card(24, '#8d5cff', 'Last 24 hours', values['last_24h'], 'commits')}
+{card(240, '#b58cff', 'Current streak', values['current_streak'], 'consecutive days')}
+{card(456, '#7047c7', 'Most in one day', values['most_in_day'], 'commits on best day')}
+{card(672, '#c18cff', 'Longest streak', values['longest_streak'], 'consecutive days')}
 </svg>'''
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(output, encoding="utf-8")

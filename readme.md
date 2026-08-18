@@ -109,12 +109,12 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 
 <br />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rutaabali3&theme=dracula" alt="Rutaab Ali's GitHub contributor statistics" height="200" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rutaabali3&theme=dracula" alt="Most used languages" height="200" />
+<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/profile-stats.svg" alt="Rutaab Ali's GitHub contributor statistics" height="200" />
+<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/language-stats.svg" alt="Most used languages" height="200" />
 
 <br />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rutaabali3&theme=dracula" alt="GitHub profile contribution details" width="100%" />
+<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/profile-details.svg" alt="GitHub profile contribution details" width="100%" />
 
 </div>
 

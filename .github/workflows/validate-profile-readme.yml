@@ -26,10 +26,15 @@ jobs:
             test -s "assets/tech/${name}.png"
           done
           test -s assets/neon-terminal.gif
+          for card in profile-stats language-stats profile-details commit-stats; do
+            test -s "assets/${card}.svg"
+            grep -q "assets/${card}.svg" readme.md
+          done
           test "$(grep -o 'assets/tech/[^/]\+\.png' readme.md | sort -u | wc -l)" -eq "${#expected[@]}"
           ! grep -q 'assets/skills/' readme.md
+          ! grep -q 'github-profile-summary-cards.vercel.app' readme.md
           ! grep -qE 'background(-color)?\s*:' readme.md
-          echo "Validated ${#expected[@]} Tech Stack PNGs and the terminal GIF."
+          echo "Validated ${#expected[@]} Tech Stack PNGs, the terminal GIF, and four exact-theme SVG cards."
 
       - name: Check README formatting
         run: git diff --check
