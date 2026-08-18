@@ -23,14 +23,14 @@
 <rect x="58" y="149" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="58" y="166" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="58" y="183" width="12" height="12" rx="3" fill="#241b45"/>
-<rect x="58" y="200" width="12" height="12" rx="3" fill="#362171"/>
+<rect x="58" y="200" width="12" height="12" rx="3" fill="#7047c7"/>
 <rect x="58" y="217" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="58" y="234" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="75" y="132" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="75" y="149" width="12" height="12" rx="3" fill="#8d5cff"/>
 <rect x="75" y="166" width="12" height="12" rx="3" fill="#8d5cff"/>
 <rect x="75" y="183" width="12" height="12" rx="3" fill="#8d5cff"/>
-<rect x="75" y="200" width="12" height="12" rx="3" fill="#241b45"/>
+<rect x="75" y="200" width="12" height="12" rx="3" fill="#7047c7"/>
 <rect x="75" y="217" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="75" y="234" width="12" height="12" rx="3" fill="#8d5cff"/>
 <rect x="92" y="132" width="12" height="12" rx="3" fill="#241b45"/>
@@ -59,11 +59,11 @@
 <rect x="143" y="166" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="143" y="183" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="143" y="200" width="12" height="12" rx="3" fill="#241b45"/>
-<rect x="143" y="217" width="12" height="12" rx="3" fill="#241b45"/>
+<rect x="143" y="217" width="12" height="12" rx="3" fill="#362171"/>
 <rect x="143" y="234" width="12" height="12" rx="3" fill="#241b45"/>
-<rect x="160" y="132" width="12" height="12" rx="3" fill="#241b45"/>
+<rect x="160" y="132" width="12" height="12" rx="3" fill="#7047c7"/>
 <rect x="160" y="149" width="12" height="12" rx="3" fill="#241b45"/>
-<rect x="160" y="166" width="12" height="12" rx="3" fill="#7047c7"/>
+<rect x="160" y="166" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="160" y="183" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="160" y="200" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="160" y="217" width="12" height="12" rx="3" fill="#241b45"/>
@@ -79,7 +79,7 @@
 <rect x="194" y="149" width="12" height="12" rx="3" fill="#362171"/>
 <rect x="194" y="166" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="194" y="183" width="12" height="12" rx="3" fill="#241b45"/>
-<rect x="194" y="200" width="12" height="12" rx="3" fill="#7047c7"/>
+<rect x="194" y="200" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="194" y="217" width="12" height="12" rx="3" fill="#8d5cff"/>
 <rect x="194" y="234" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="211" y="132" width="12" height="12" rx="3" fill="#241b45"/>
@@ -143,11 +143,11 @@
 <rect x="347" y="166" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="347" y="183" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="347" y="200" width="12" height="12" rx="3" fill="#241b45"/>
-<rect x="347" y="217" width="12" height="12" rx="3" fill="#362171"/>
+<rect x="347" y="217" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="347" y="234" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="364" y="132" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="364" y="149" width="12" height="12" rx="3" fill="#241b45"/>
-<rect x="364" y="166" width="12" height="12" rx="3" fill="#362171"/>
+<rect x="364" y="166" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="364" y="183" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="364" y="200" width="12" height="12" rx="3" fill="#241b45"/>
 <rect x="364" y="217" width="12" height="12" rx="3" fill="#241b45"/>
@@ -198,7 +198,7 @@
 <text x="548" y="160" fill="#b58cff" font-family="Segoe UI,Arial,sans-serif" font-size="12">Commits this year</text>
 <text x="548" y="184" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">100</text>
 <text x="700" y="160" fill="#b58cff" font-family="Segoe UI,Arial,sans-serif" font-size="12">Active days</text>
-<text x="700" y="184" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">32</text>
+<text x="700" y="184" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">31</text>
 <text x="548" y="216" fill="#b58cff" font-family="Segoe UI,Arial,sans-serif" font-size="12">Best day</text>
 <text x="548" y="240" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">11</text>
 <text x="700" y="216" fill="#b58cff" font-family="Segoe UI,Arial,sans-serif" font-size="12">Public events</text>
