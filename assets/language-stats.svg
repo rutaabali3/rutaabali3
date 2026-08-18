@@ -6,7 +6,7 @@
 <text x="24" y="109" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">TypeScript</text>
 <text x="408" y="109" fill="#9e94bb" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="12">56.4%</text>
 <rect x="24" y="118" width="360" height="8" rx="4" fill="#241b45"/>
-<rect x="24" y="118" width="203" height="8" rx="4" fill="#8d5cff"/>
+<rect x="24" y="118" width="202" height="8" rx="4" fill="#8d5cff"/>
 <text x="456" y="109" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">HTML</text>
 <text x="840" y="109" fill="#9e94bb" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="12">21.3%</text>
 <rect x="456" y="118" width="360" height="8" rx="4" fill="#241b45"/>
