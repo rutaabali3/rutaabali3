@@ -112,6 +112,10 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rutaabali3&theme=github_dark" alt="GitHub profile contribution details" width="100%" />
 
+<br />
+
+<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/commit-stats.svg" alt="Commits in the last 24 hours and current commit streak" width="100%" />
+
 </div>
 
 ## Experience snapshot
