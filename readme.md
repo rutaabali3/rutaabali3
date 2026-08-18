@@ -97,6 +97,23 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 
 </div>
 
+## Contribution activity
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" width="100%" />
+
+<br />
+
+<img src="https://github-readme-stats.vercel.app/api?username=rutaabali3&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="Rutaab Ali's GitHub contributor statistics" height="170" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rutaabali3&layout=compact&theme=transparent&hide_border=true" alt="Most used languages" height="170" />
+
+<br />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rutaabali3&theme=github_dark" alt="GitHub profile contribution details" width="100%" />
+
+</div>
+
 ## Selected work
 
 | Project | What it is | Built with |

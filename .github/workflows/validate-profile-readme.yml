@@ -1,0 +1,35 @@
+name: Validate Profile README
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate portfolio Tech Stack assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected=(angular anthropic aspnet bootstrap canva csharp css firebase git github gitlab gsap html javascript jquery laravel mysql netlify openai php phpmyadmin seo sqlserver tailwind typescript vercel)
+          for name in "${expected[@]}"; do
+            test -s "assets/tech/${name}.png"
+          done
+          test -s assets/neon-terminal.gif
+          test "$(grep -o 'assets/tech/[^/]\+\.png' readme.md | sort -u | wc -l)" -eq "${#expected[@]}"
+          ! grep -q 'assets/skills/' readme.md
+          ! grep -qE 'background(-color)?\s*:' readme.md
+          echo "Validated ${#expected[@]} Tech Stack PNGs and the terminal GIF."
+
+      - name: Check README formatting
+        run: git diff --check
