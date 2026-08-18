@@ -101,7 +101,7 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" width="100%" />
+<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/output/github-contribution-grid-snake-purple.svg" alt="GitHub contribution snake" width="100%" />
 
 <br />
 
@@ -109,12 +109,12 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 
 <br />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rutaabali3&theme=github_dark" alt="Rutaab Ali's GitHub contributor statistics" height="200" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rutaabali3&theme=github_dark" alt="Most used languages" height="200" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rutaabali3&theme=dracula" alt="Rutaab Ali's GitHub contributor statistics" height="200" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rutaabali3&theme=dracula" alt="Most used languages" height="200" />
 
 <br />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rutaabali3&theme=github_dark" alt="GitHub profile contribution details" width="100%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rutaabali3&theme=dracula" alt="GitHub profile contribution details" width="100%" />
 
 </div>
 

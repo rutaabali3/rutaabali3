@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check contribution snake
-        run: curl --fail --silent --show-error --location --retry-all-errors --retry 5 --retry-delay 5 -o /dev/null https://raw.githubusercontent.com/rutaabali3/rutaabali3/output/github-contribution-grid-snake-dark.svg
+        run: curl --fail --silent --show-error --location --retry-all-errors --retry 5 --retry-delay 5 -o /dev/null https://raw.githubusercontent.com/rutaabali3/rutaabali3/output/github-contribution-grid-snake-purple.svg
 
       - name: Check contributor statistics panel
-        run: curl --fail --silent --show-error --location --retry-all-errors --retry 5 --retry-delay 5 -o /dev/null 'https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rutaabali3&theme=github_dark'
+        run: curl --fail --silent --show-error --location --retry-all-errors --retry 5 --retry-delay 5 -o /dev/null 'https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rutaabali3&theme=dracula'
 
       - name: Check language panel
-        run: curl --fail --silent --show-error --location --retry-all-errors --retry 5 --retry-delay 5 -o /dev/null 'https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rutaabali3&theme=github_dark'
+        run: curl --fail --silent --show-error --location --retry-all-errors --retry 5 --retry-delay 5 -o /dev/null 'https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rutaabali3&theme=dracula'
 
       - name: Check profile summary panel
-        run: curl --fail --silent --show-error --location --retry-all-errors --retry 5 --retry-delay 5 -o /dev/null 'https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rutaabali3&theme=github_dark'
+        run: curl --fail --silent --show-error --location --retry-all-errors --retry 5 --retry-delay 5 -o /dev/null 'https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rutaabali3&theme=dracula'
