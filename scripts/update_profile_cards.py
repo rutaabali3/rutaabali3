@@ -130,10 +130,10 @@ def main() -> None:
         ])
     write("language-stats.svg", lines)
 
-    lines = svg_open(900, 340, "Profile details", f"Contribution activity · exact terminal palette · refreshed {updated}")
+    lines = svg_open(900, 300, "Profile details", f"Contribution activity · exact terminal palette · refreshed {updated}")
     lines.extend([
-        f'<text x="30" y="101" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">Commit activity</text>',
-        f'<text x="30" y="119" fill="{MUTED}" font-family="Segoe UI,Arial,sans-serif" font-size="11">Recent contribution rhythm</text>',
+        f'<text x="24" y="101" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">Commit activity</text>',
+        f'<text x="24" y="119" fill="{MUTED}" font-family="Segoe UI,Arial,sans-serif" font-size="11">Recent contribution rhythm</text>',
     ])
     start = datetime.now(timezone.utc).date() - __import__("datetime").timedelta(days=181)
     for index in range(182):
@@ -142,24 +142,32 @@ def main() -> None:
         row = index % 7
         count = commit_days.get(day.isoformat(), 0)
         color = GRID if count == 0 else ("#362171" if count == 1 else ("#7047c7" if count < 4 else ACCENT))
-        x = 30 + col * 17
+        x = 24 + col * 17
         y = 132 + row * 17
         lines.append(f'<rect x="{x}" y="{y}" width="12" height="12" rx="3" fill="{color}"/>')
+    lines.extend([
+        f'<text x="24" y="276" fill="{MUTED}" font-family="Segoe UI,Arial,sans-serif" font-size="10">Less</text>',
+        f'<rect x="58" y="268" width="12" height="12" rx="3" fill="{GRID}"/>',
+        f'<rect x="76" y="268" width="12" height="12" rx="3" fill="#362171"/>',
+        f'<rect x="94" y="268" width="12" height="12" rx="3" fill="#7047c7"/>',
+        f'<rect x="112" y="268" width="12" height="12" rx="3" fill="{ACCENT}"/>',
+        f'<text x="134" y="276" fill="{MUTED}" font-family="Segoe UI,Arial,sans-serif" font-size="10">More</text>',
+    ])
     active_days = sum(1 for value in commit_days.values() if value > 0)
     total_commits = sum(commit_days.values())
     best_day = max(commit_days.values(), default=0)
     lines.extend([
-        f'<rect x="520" y="96" width="356" height="190" rx="14" fill="{PANEL}" stroke="{BORDER}"/>',
-        f'<text x="548" y="132" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Activity overview</text>',
-        f'<text x="548" y="164" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12">Commits this year</text>',
-        f'<text x="548" y="190" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">{total_commits}</text>',
-        f'<text x="700" y="164" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12">Active days</text>',
-        f'<text x="700" y="190" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">{active_days}</text>',
-        f'<text x="548" y="226" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12">Best day</text>',
-        f'<text x="548" y="252" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">{best_day}</text>',
-        f'<text x="700" y="226" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12">Public events</text>',
-        f'<text x="700" y="252" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">{len(events)}</text>',
-        f'<text x="548" y="273" fill="{MUTED}" font-family="Segoe UI,Arial,sans-serif" font-size="11">Live GitHub activity</text>',
+        f'<rect x="520" y="96" width="356" height="180" rx="14" fill="{PANEL}" stroke="{BORDER}"/>',
+        f'<text x="548" y="130" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Activity overview</text>',
+        f'<text x="548" y="160" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12">Commits this year</text>',
+        f'<text x="548" y="184" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">{total_commits}</text>',
+        f'<text x="700" y="160" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12">Active days</text>',
+        f'<text x="700" y="184" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">{active_days}</text>',
+        f'<text x="548" y="216" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12">Best day</text>',
+        f'<text x="548" y="240" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">{best_day}</text>',
+        f'<text x="700" y="216" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12">Public events</text>',
+        f'<text x="700" y="240" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">{len(events)}</text>',
+        f'<text x="548" y="264" fill="{MUTED}" font-family="Segoe UI,Arial,sans-serif" font-size="11">Live GitHub activity</text>',
     ])
     write("profile-details.svg", lines)
 
