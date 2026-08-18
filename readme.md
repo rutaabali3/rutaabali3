@@ -58,40 +58,40 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 
 <table align="center">
 <tr>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/html.png" width="50" height="50" alt="HTML5" /><br /><sub>HTML5</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/css.png" width="50" height="50" alt="CSS3" /><br /><sub>CSS3</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/javascript.png" width="50" height="50" alt="JavaScript" /><br /><sub>JavaScript</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/typescript.png" width="50" height="50" alt="TypeScript" /><br /><sub>TypeScript</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/php.png" width="50" height="50" alt="PHP" /><br /><sub>PHP</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/csharp.png" width="50" height="50" alt="C#" /><br /><sub>C#</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/html.png" width="80" height="80" alt="HTML5" /><br /><sub>HTML5</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/css.png" width="80" height="80" alt="CSS3" /><br /><sub>CSS3</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/javascript.png" width="80" height="80" alt="JavaScript" /><br /><sub>JavaScript</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/typescript.png" width="80" height="80" alt="TypeScript" /><br /><sub>TypeScript</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/php.png" width="80" height="80" alt="PHP" /><br /><sub>PHP</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/csharp.png" width="80" height="80" alt="C#" /><br /><sub>C#</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/laravel.png" width="50" height="50" alt="Laravel" /><br /><sub>Laravel</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/aspnet.png" width="50" height="50" alt="ASP.NET" /><br /><sub>ASP.NET</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/angular.png" width="50" height="50" alt="Angular" /><br /><sub>Angular</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/tailwind.png" width="50" height="50" alt="Tailwind CSS" /><br /><sub>Tailwind CSS</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/bootstrap.png" width="50" height="50" alt="Bootstrap" /><br /><sub>Bootstrap</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/jquery.png" width="50" height="50" alt="jQuery" /><br /><sub>jQuery</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/laravel.png" width="80" height="80" alt="Laravel" /><br /><sub>Laravel</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/aspnet.png" width="80" height="80" alt="ASP.NET" /><br /><sub>ASP.NET</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/angular.png" width="80" height="80" alt="Angular" /><br /><sub>Angular</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/tailwind.png" width="80" height="80" alt="Tailwind CSS" /><br /><sub>Tailwind CSS</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/bootstrap.png" width="80" height="80" alt="Bootstrap" /><br /><sub>Bootstrap</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/jquery.png" width="80" height="80" alt="jQuery" /><br /><sub>jQuery</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/gsap.png" width="50" height="50" alt="GSAP" /><br /><sub>GSAP</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/mysql.png" width="50" height="50" alt="MySQL" /><br /><sub>MySQL</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/phpmyadmin.png" width="50" height="50" alt="phpMyAdmin" /><br /><sub>phpMyAdmin</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/sqlserver.png" width="50" height="50" alt="SQL Server" /><br /><sub>SQL Server</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/git.png" width="50" height="50" alt="Git" /><br /><sub>Git</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/github.png" width="50" height="50" alt="GitHub" /><br /><sub>GitHub</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/gsap.png" width="80" height="80" alt="GSAP" /><br /><sub>GSAP</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/mysql.png" width="80" height="80" alt="MySQL" /><br /><sub>MySQL</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/phpmyadmin.png" width="80" height="80" alt="phpMyAdmin" /><br /><sub>phpMyAdmin</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/sqlserver.png" width="80" height="80" alt="SQL Server" /><br /><sub>SQL Server</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/git.png" width="80" height="80" alt="Git" /><br /><sub>Git</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/github.png" width="80" height="80" alt="GitHub" /><br /><sub>GitHub</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/gitlab.png" width="50" height="50" alt="GitLab" /><br /><sub>GitLab</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/vercel.png" width="50" height="50" alt="Vercel" /><br /><sub>Vercel</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/netlify.png" width="50" height="50" alt="Netlify" /><br /><sub>Netlify</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/firebase.png" width="50" height="50" alt="Firebase" /><br /><sub>Firebase</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/openai.png" width="50" height="50" alt="OpenAI" /><br /><sub>OpenAI</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/anthropic.png" width="50" height="50" alt="Anthropic" /><br /><sub>Anthropic</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/gitlab.png" width="80" height="80" alt="GitLab" /><br /><sub>GitLab</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/vercel.png" width="80" height="80" alt="Vercel" /><br /><sub>Vercel</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/netlify.png" width="80" height="80" alt="Netlify" /><br /><sub>Netlify</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/firebase.png" width="80" height="80" alt="Firebase" /><br /><sub>Firebase</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/openai.png" width="80" height="80" alt="OpenAI" /><br /><sub>OpenAI</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/anthropic.png" width="80" height="80" alt="Anthropic" /><br /><sub>Anthropic</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/canva.png" width="50" height="50" alt="Canva" /><br /><sub>Canva</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/seo.png" width="50" height="50" alt="SEO" /><br /><sub>SEO</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/canva.png" width="80" height="80" alt="Canva" /><br /><sub>Canva</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/seo.png" width="80" height="80" alt="SEO" /><br /><sub>SEO</sub></td>
 </tr>
 </table>
 
@@ -113,14 +113,6 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rutaabali3&theme=github_dark" alt="GitHub profile contribution details" width="100%" />
 
 </div>
-
-## Selected work
-
-| Project | What it is | Built with |
-|:--|:--|:--|
-| **BridgeX** | A visual platform exploring remarkable bridges, their engineering, and historical significance. | HTML |
-| **bilal** | A personal website with custom design and interactive features. | JavaScript |
-| **HomeDecor** | A home-decoration experience for catalogs, ideas, and interior inspiration. | CSS |
 
 ## Experience snapshot
 
