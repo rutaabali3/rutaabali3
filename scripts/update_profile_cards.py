@@ -94,6 +94,19 @@ def main() -> None:
     push_events = sum(1 for event in events if event.get("type") == "PushEvent")
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%d UTC")
 
+    commit_items = []
+    try:
+        since = (datetime.now(timezone.utc).date()).isoformat()
+        query = urllib.parse.quote(f"author:{OWNER} committer-date:>={since[:4]}-01-01")
+        commit_items = api(f"/search/commits?q={query}&per_page=100") .get("items", [])
+    except Exception:
+        commit_items = []
+    commit_days = Counter()
+    for item in commit_items:
+        raw = item.get("commit", {}).get("committer", {}).get("date")
+        if raw:
+            commit_days[raw[:10]] += 1
+
     lines = svg_open(900, 230, "Contributor statistics", f"Exact terminal palette · refreshed {updated}")
     metric_card(lines, 24, 92, 204, "Public repos", str(user.get("public_repos", 0)), "repositories", ACCENT)
     metric_card(lines, 240, 92, 204, "Followers", str(user.get("followers", 0)), "people following", ACCENT_2)
@@ -117,11 +130,37 @@ def main() -> None:
         ])
     write("language-stats.svg", lines)
 
-    lines = svg_open(900, 230, "Profile details", f"Live GitHub activity · refreshed {updated}")
-    metric_card(lines, 24, 92, 204, "Public events", str(len(events)), "recent activity window", ACCENT)
-    metric_card(lines, 240, 92, 204, "Push events", str(push_events), "recent pushes", ACCENT_2)
-    metric_card(lines, 456, 92, 204, "Languages", str(len(languages)), "detected in repos", "#7047c7")
-    metric_card(lines, 672, 92, 204, "Profile", user.get("login", OWNER), "GitHub identity", "#c18cff")
+    lines = svg_open(900, 340, "Profile details", f"Contribution activity · exact terminal palette · refreshed {updated}")
+    lines.extend([
+        f'<text x="30" y="101" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">Commit activity</text>',
+        f'<text x="30" y="119" fill="{MUTED}" font-family="Segoe UI,Arial,sans-serif" font-size="11">Recent contribution rhythm</text>',
+    ])
+    start = datetime.now(timezone.utc).date() - __import__("datetime").timedelta(days=181)
+    for index in range(182):
+        day = start + __import__("datetime").timedelta(days=index)
+        col = index // 7
+        row = index % 7
+        count = commit_days.get(day.isoformat(), 0)
+        color = GRID if count == 0 else ("#362171" if count == 1 else ("#7047c7" if count < 4 else ACCENT))
+        x = 30 + col * 17
+        y = 132 + row * 17
+        lines.append(f'<rect x="{x}" y="{y}" width="12" height="12" rx="3" fill="{color}"/>')
+    active_days = sum(1 for value in commit_days.values() if value > 0)
+    total_commits = sum(commit_days.values())
+    best_day = max(commit_days.values(), default=0)
+    lines.extend([
+        f'<rect x="520" y="96" width="356" height="190" rx="14" fill="{PANEL}" stroke="{BORDER}"/>',
+        f'<text x="548" y="132" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Activity overview</text>',
+        f'<text x="548" y="164" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12">Commits this year</text>',
+        f'<text x="548" y="190" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">{total_commits}</text>',
+        f'<text x="700" y="164" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12">Active days</text>',
+        f'<text x="700" y="190" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">{active_days}</text>',
+        f'<text x="548" y="226" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12">Best day</text>',
+        f'<text x="548" y="252" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">{best_day}</text>',
+        f'<text x="700" y="226" fill="{ACCENT_2}" font-family="Segoe UI,Arial,sans-serif" font-size="12">Public events</text>',
+        f'<text x="700" y="252" fill="{TEXT}" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">{len(events)}</text>',
+        f'<text x="548" y="273" fill="{MUTED}" font-family="Segoe UI,Arial,sans-serif" font-size="11">Live GitHub activity</text>',
+    ])
     write("profile-details.svg", lines)
 
 
