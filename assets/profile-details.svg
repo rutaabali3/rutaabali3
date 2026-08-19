@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-label="Profile details">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-label="Profile details" data-design="reference-v2">
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c0b1b"/><stop offset="1" stop-color="#171330"/></linearGradient>
 <linearGradient id="violet" x1="0" x2="1"><stop stop-color="#7047c7"/><stop offset=".55" stop-color="#8d5cff"/><stop offset="1" stop-color="#c18cff"/></linearGradient>
@@ -210,6 +210,7 @@
 <text x="673" y="361" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">commits</text>
 <path d="M673 322 C717 302 755 338 795 312 S875 340 757 296" fill="none" stroke="#8d5cff" stroke-width="2" opacity=".85"/>
 <circle cx="757" cy="296" r="4" fill="#8d5cff" filter="url(#glow)"/>
+<rect x="646" y="345" width="138" height="4" rx="2" fill="url(#violet)"/>
 <rect x="815" y="214" width="140" height="136" rx="18" fill="#14132f" stroke="#362171"/>
 <circle cx="855" cy="257" r="25" fill="#24134e" stroke="#b58cff" stroke-width="1.5"/>
 <text x="855" y="265" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">D</text>
@@ -218,6 +219,7 @@
 <text x="843" y="361" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">days</text>
 <path d="M843 322 C887 302 925 338 965 312 S1045 340 927 296" fill="none" stroke="#b58cff" stroke-width="2" opacity=".85"/>
 <circle cx="927" cy="296" r="4" fill="#b58cff" filter="url(#glow)"/>
+<rect x="816" y="345" width="138" height="4" rx="2" fill="url(#violet)"/>
 <rect x="645" y="370" width="140" height="136" rx="18" fill="#14132f" stroke="#362171"/>
 <circle cx="685" cy="413" r="25" fill="#24134e" stroke="#7047c7" stroke-width="1.5"/>
 <text x="685" y="421" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">*</text>
@@ -226,6 +228,7 @@
 <text x="673" y="517" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">commits</text>
 <path d="M673 478 C717 458 755 494 795 468 S875 496 757 452" fill="none" stroke="#7047c7" stroke-width="2" opacity=".85"/>
 <circle cx="757" cy="452" r="4" fill="#7047c7" filter="url(#glow)"/>
+<rect x="646" y="501" width="138" height="4" rx="2" fill="url(#violet)"/>
 <rect x="815" y="370" width="136" height="136" rx="18" fill="#14132f" stroke="#362171"/>
 <circle cx="855" cy="413" r="25" fill="#24134e" stroke="#c18cff" stroke-width="1.5"/>
 <text x="855" y="421" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">E</text>
@@ -234,4 +237,5 @@
 <text x="843" y="517" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">events</text>
 <path d="M843 478 C887 458 925 494 965 468 S1045 496 923 452" fill="none" stroke="#c18cff" stroke-width="2" opacity=".85"/>
 <circle cx="923" cy="452" r="4" fill="#c18cff" filter="url(#glow)"/>
+<rect x="816" y="501" width="134" height="4" rx="2" fill="url(#violet)"/>
 </svg>

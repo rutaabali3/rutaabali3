@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" role="img" aria-label="Contributor statistics">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" role="img" aria-label="Contributor statistics" data-design="reference-v2">
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c0b1b"/><stop offset="1" stop-color="#171330"/></linearGradient>
 <linearGradient id="violet" x1="0" x2="1"><stop stop-color="#7047c7"/><stop offset=".55" stop-color="#8d5cff"/><stop offset="1" stop-color="#c18cff"/></linearGradient>
@@ -20,6 +20,7 @@
 <text x="56" y="287" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">repositories</text>
 <path d="M56 308 C100 288 138 324 178 298 S258 326 226 282" fill="none" stroke="#8d5cff" stroke-width="2" opacity=".85"/>
 <circle cx="226" cy="282" r="4" fill="#8d5cff" filter="url(#glow)"/>
+<rect x="29" y="331" width="224" height="4" rx="2" fill="url(#violet)"/>
 <rect x="266" y="140" width="226" height="196" rx="18" fill="#14132f" stroke="#362171"/>
 <circle cx="306" cy="183" r="25" fill="#24134e" stroke="#b58cff" stroke-width="1.5"/>
 <text x="306" y="191" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">F</text>
@@ -28,6 +29,7 @@
 <text x="294" y="287" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">people following</text>
 <path d="M294 308 C338 288 376 324 416 298 S496 326 464 282" fill="none" stroke="#b58cff" stroke-width="2" opacity=".85"/>
 <circle cx="464" cy="282" r="4" fill="#b58cff" filter="url(#glow)"/>
+<rect x="267" y="331" width="224" height="4" rx="2" fill="url(#violet)"/>
 <rect x="504" y="140" width="226" height="196" rx="18" fill="#14132f" stroke="#362171"/>
 <circle cx="544" cy="183" r="25" fill="#24134e" stroke="#7047c7" stroke-width="1.5"/>
 <text x="544" y="191" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">*</text>
@@ -36,6 +38,7 @@
 <text x="532" y="287" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">across public repos</text>
 <path d="M532 308 C576 288 614 324 654 298 S734 326 702 282" fill="none" stroke="#7047c7" stroke-width="2" opacity=".85"/>
 <circle cx="702" cy="282" r="4" fill="#7047c7" filter="url(#glow)"/>
+<rect x="505" y="331" width="224" height="4" rx="2" fill="url(#violet)"/>
 <rect x="742" y="140" width="226" height="196" rx="18" fill="#14132f" stroke="#362171"/>
 <circle cx="782" cy="183" r="25" fill="#24134e" stroke="#c18cff" stroke-width="1.5"/>
 <text x="782" y="191" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">+</text>
@@ -44,4 +47,5 @@
 <text x="770" y="287" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">repository forks</text>
 <path d="M770 308 C814 288 852 324 892 298 S972 326 940 282" fill="none" stroke="#c18cff" stroke-width="2" opacity=".85"/>
 <circle cx="940" cy="282" r="4" fill="#c18cff" filter="url(#glow)"/>
+<rect x="743" y="331" width="224" height="4" rx="2" fill="url(#violet)"/>
 </svg>
