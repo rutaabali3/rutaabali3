@@ -45,7 +45,7 @@ def write(name: str, lines: list[str]) -> None:
 
 def base(width: int, height: int, title: str, subtitle: str, icon: str) -> list[str]:
     return [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{esc(title)}">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{esc(title)}" data-design="reference-v2">',
         '<defs>',
         '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c0b1b"/><stop offset="1" stop-color="#171330"/></linearGradient>',
         '<linearGradient id="violet" x1="0" x2="1"><stop stop-color="#7047c7"/><stop offset=".55" stop-color="#8d5cff"/><stop offset="1" stop-color="#c18cff"/></linearGradient>',
@@ -82,6 +82,7 @@ def metric(lines: list[str], x: int, y: int, w: int, h: int, label: str, value: 
         f'<text x="{x + 28}" y="{y + 147}" fill="{MUTED}" font-family="{FONT}" font-size="14">{esc(detail)}</text>',
         f'<path d="M{x + 28} {y + h - 28} C{x + 72} {y + h - 48} {x + 110} {y + h - 12} {x + 150} {y + h - 38} S{x + 230} {y + h - 10} {x + w - 28} {y + h - 54}" fill="none" stroke="{accent}" stroke-width="2" opacity=".85"/>',
         f'<circle cx="{x + w - 28}" cy="{y + h - 54}" r="4" fill="{accent}" filter="url(#glow)"/>',
+        f'<rect x="{x + 1}" y="{y + h - 5}" width="{w - 2}" height="4" rx="2" fill="url(#violet)"/>',
     ])
 
 

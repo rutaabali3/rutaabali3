@@ -1,32 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-label="Commit activity statistics">
-  <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0c0b1b"/><stop offset="1" stop-color="#171330"/></linearGradient>
-  </defs>
-  <rect width="900" height="270" rx="16" fill="url(#bg)" stroke="#362171"/>
-  <text x="30" y="34" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Commit activity</text>
-  <text x="30" y="58" fill="#9e94bb" font-family="Segoe UI,Arial,sans-serif" font-size="12">Live metrics from GitHub · refreshed daily</text>
-  <rect x="24" y="82" width="204" height="154" rx="12" fill="#14132f" stroke="#362171"/>
-  <circle cx="52" cy="116" r="12" fill="#8d5cff" opacity=".22"/>
-  <circle cx="52" cy="116" r="5" fill="#8d5cff"/>
-  <text x="76" y="121" fill="#b58cff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Last 24 hours</text>
-  <text x="48" y="174" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">11</text>
-  <text x="48" y="202" fill="#9e94bb" font-family="Segoe UI,Arial,sans-serif" font-size="12">commits</text>
-  <rect x="240" y="82" width="204" height="154" rx="12" fill="#14132f" stroke="#362171"/>
-  <circle cx="268" cy="116" r="12" fill="#b58cff" opacity=".22"/>
-  <circle cx="268" cy="116" r="5" fill="#b58cff"/>
-  <text x="292" y="121" fill="#b58cff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Current streak</text>
-  <text x="264" y="174" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">1</text>
-  <text x="264" y="202" fill="#9e94bb" font-family="Segoe UI,Arial,sans-serif" font-size="12">consecutive days</text>
-  <rect x="456" y="82" width="204" height="154" rx="12" fill="#14132f" stroke="#362171"/>
-  <circle cx="484" cy="116" r="12" fill="#7047c7" opacity=".22"/>
-  <circle cx="484" cy="116" r="5" fill="#7047c7"/>
-  <text x="508" y="121" fill="#b58cff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Most in one day</text>
-  <text x="480" y="174" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">19</text>
-  <text x="480" y="202" fill="#9e94bb" font-family="Segoe UI,Arial,sans-serif" font-size="12">commits on best day</text>
-  <rect x="672" y="82" width="204" height="154" rx="12" fill="#14132f" stroke="#362171"/>
-  <circle cx="700" cy="116" r="12" fill="#c18cff" opacity=".22"/>
-  <circle cx="700" cy="116" r="5" fill="#c18cff"/>
-  <text x="724" y="121" fill="#b58cff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Longest streak</text>
-  <text x="696" y="174" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">9</text>
-  <text x="696" y="202" fill="#9e94bb" font-family="Segoe UI,Arial,sans-serif" font-size="12">consecutive days</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-label="Commit activity statistics" data-design="reference-v2">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c0b1b"/><stop offset="1" stop-color="#171330"/></linearGradient><linearGradient id="violet" x1="0" x2="1"><stop stop-color="#7047c7"/><stop offset=".55" stop-color="#8d5cff"/><stop offset="1" stop-color="#c18cff"/></linearGradient></defs>
+  <rect width="1000" height="430" rx="24" fill="url(#bg)" stroke="#362171" stroke-width="1.5"/>
+  <circle cx="70" cy="74" r="38" fill="#24134e" stroke="url(#violet)" stroke-width="2"/><text x="70" y="84" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="28" font-weight="700">↗</text>
+  <text x="128" y="72" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="28" font-weight="700">Commit activity</text>
+  <text x="128" y="101" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">Live metrics from GitHub · <tspan fill="#b58cff">refreshed daily</tspan></text>
+  <path d="M720 96 C760 58 792 116 832 74 S918 54 964 87" fill="none" stroke="#7047c7" stroke-width="1.5"/><circle cx="832" cy="74" r="4" fill="#c18cff"/><circle cx="964" cy="87" r="4" fill="#8d5cff"/>
+  <rect x="28" y="124" width="204" height="220" rx="18" fill="#14132f" stroke="#362171"/>
+  <circle cx="70" cy="168" r="25" fill="#24134e" stroke="#8d5cff" stroke-width="1.5"/>
+  <text x="70" y="176" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">24</text>
+  <text x="106" y="174" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700">Last 24 hours</text>
+  <text x="56" y="256" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="52" font-weight="700">24</text>
+  <text x="56" y="292" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">commits</text>
+  <path d="M56 318 C90 300 126 330 154 308 S198 326 204 294" fill="none" stroke="#8d5cff" stroke-width="2" opacity=".9"/>
+  <circle cx="204" cy="294" r="4" fill="#8d5cff"/>
+  <rect x="29" y="339" width="202" height="4" rx="2" fill="url(#violet)"/>
+  <rect x="266" y="124" width="204" height="220" rx="18" fill="#14132f" stroke="#362171"/>
+  <circle cx="308" cy="168" r="25" fill="#24134e" stroke="#b58cff" stroke-width="1.5"/>
+  <text x="308" y="176" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">ST</text>
+  <text x="344" y="174" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700">Current streak</text>
+  <text x="294" y="256" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="52" font-weight="700">1</text>
+  <text x="294" y="292" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">consecutive days</text>
+  <path d="M294 318 C328 300 364 330 392 308 S436 326 442 294" fill="none" stroke="#b58cff" stroke-width="2" opacity=".9"/>
+  <circle cx="442" cy="294" r="4" fill="#b58cff"/>
+  <rect x="267" y="339" width="202" height="4" rx="2" fill="url(#violet)"/>
+  <rect x="504" y="124" width="204" height="220" rx="18" fill="#14132f" stroke="#362171"/>
+  <circle cx="546" cy="168" r="25" fill="#24134e" stroke="#7047c7" stroke-width="1.5"/>
+  <text x="546" y="176" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">*</text>
+  <text x="582" y="174" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700">Most in one day</text>
+  <text x="532" y="256" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="52" font-weight="700">24</text>
+  <text x="532" y="292" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">commits on best day</text>
+  <path d="M532 318 C566 300 602 330 630 308 S674 326 680 294" fill="none" stroke="#7047c7" stroke-width="2" opacity=".9"/>
+  <circle cx="680" cy="294" r="4" fill="#7047c7"/>
+  <rect x="505" y="339" width="202" height="4" rx="2" fill="url(#violet)"/>
+  <rect x="742" y="124" width="204" height="220" rx="18" fill="#14132f" stroke="#362171"/>
+  <circle cx="784" cy="168" r="25" fill="#24134e" stroke="#c18cff" stroke-width="1.5"/>
+  <text x="784" y="176" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">LS</text>
+  <text x="820" y="174" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700">Longest streak</text>
+  <text x="770" y="256" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="52" font-weight="700">9</text>
+  <text x="770" y="292" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">consecutive days</text>
+  <path d="M770 318 C804 300 840 330 868 308 S912 326 918 294" fill="none" stroke="#c18cff" stroke-width="2" opacity=".9"/>
+  <circle cx="918" cy="294" r="4" fill="#c18cff"/>
+  <rect x="743" y="339" width="202" height="4" rx="2" fill="url(#violet)"/>
 </svg>

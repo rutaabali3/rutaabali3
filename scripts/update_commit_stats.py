@@ -54,7 +54,8 @@ def card(x: int, color: str, label: str, value: int, detail: str, glyph: str) ->
   <text x="{x + 28}" y="{y + 132}" fill="{TEXT}" font-family="{FONT}" font-size="52" font-weight="700">{value}</text>
   <text x="{x + 28}" y="{y + 168}" fill="{MUTED}" font-family="{FONT}" font-size="14">{detail}</text>
   <path d="M{x + 28} {y + 194} C{x + 62} {y + 176} {x + 98} {y + 206} {x + 126} {y + 184} S{x + 170} {y + 202} {x + 176} {y + 170}" fill="none" stroke="{color}" stroke-width="2" opacity=".9"/>
-  <circle cx="{x + 176}" cy="{y + 170}" r="4" fill="{color}"/>'''
+  <circle cx="{x + 176}" cy="{y + 170}" r="4" fill="{color}"/>
+  <rect x="{x + 1}" y="{y + h - 5}" width="{w - 2}" height="4" rx="2" fill="url(#violet)"/>'''
 
 
 def main() -> None:
@@ -67,7 +68,7 @@ def main() -> None:
     if day not in date_set and day - dt.timedelta(days=1) in date_set: day -= dt.timedelta(days=1)
     while day in date_set: current_streak += 1; day -= dt.timedelta(days=1)
     values = {"last_24h": len(recent), "current_streak": current_streak, "most_in_day": max(per_day.values(), default=0), "longest_streak": longest_run(date_set)}
-    output = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-label="Commit activity statistics">
+    output = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-label="Commit activity statistics" data-design="reference-v2">
   <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="{BG}"/><stop offset="1" stop-color="{PANEL}"/></linearGradient><linearGradient id="violet" x1="0" x2="1"><stop stop-color="#7047c7"/><stop offset=".55" stop-color="{ACCENT}"/><stop offset="1" stop-color="#c18cff"/></linearGradient></defs>
   <rect width="1000" height="430" rx="24" fill="url(#bg)" stroke="{BORDER}" stroke-width="1.5"/>
   <circle cx="70" cy="74" r="38" fill="#24134e" stroke="url(#violet)" stroke-width="2"/><text x="70" y="84" text-anchor="middle" fill="{TEXT}" font-family="{FONT}" font-size="28" font-weight="700">↗</text>
