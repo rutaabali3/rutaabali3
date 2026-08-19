@@ -69,14 +69,14 @@
 <rect x="166" y="369" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="166" y="394" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="184" y="244" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="184" y="269" width="14" height="14" rx="4" fill="#241b45"/>
+<rect x="184" y="269" width="14" height="14" rx="4" fill="#7047c7"/>
 <rect x="184" y="294" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="184" y="319" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="184" y="344" width="14" height="14" rx="4" fill="#241b45"/>
+<rect x="184" y="344" width="14" height="14" rx="4" fill="#362171"/>
 <rect x="184" y="369" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="184" y="394" width="14" height="14" rx="4" fill="#7047c7"/>
 <rect x="202" y="244" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="202" y="269" width="14" height="14" rx="4" fill="#7047c7"/>
+<rect x="202" y="269" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="202" y="294" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="202" y="319" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="202" y="344" width="14" height="14" rx="4" fill="#241b45"/>
@@ -92,7 +92,7 @@
 <rect x="238" y="244" width="14" height="14" rx="4" fill="#362171"/>
 <rect x="238" y="269" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="238" y="294" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="238" y="319" width="14" height="14" rx="4" fill="#7047c7"/>
+<rect x="238" y="319" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="238" y="344" width="14" height="14" rx="4" fill="#8d5cff"/>
 <rect x="238" y="369" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="238" y="394" width="14" height="14" rx="4" fill="#241b45"/>
@@ -121,9 +121,9 @@
 <rect x="310" y="269" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="310" y="294" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="310" y="319" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="310" y="344" width="14" height="14" rx="4" fill="#362171"/>
-<rect x="310" y="369" width="14" height="14" rx="4" fill="#362171"/>
-<rect x="310" y="394" width="14" height="14" rx="4" fill="#241b45"/>
+<rect x="310" y="344" width="14" height="14" rx="4" fill="#7047c7"/>
+<rect x="310" y="369" width="14" height="14" rx="4" fill="#7047c7"/>
+<rect x="310" y="394" width="14" height="14" rx="4" fill="#362171"/>
 <rect x="328" y="244" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="328" y="269" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="328" y="294" width="14" height="14" rx="4" fill="#241b45"/>
@@ -156,11 +156,11 @@
 <rect x="400" y="269" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="400" y="294" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="400" y="319" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="400" y="344" width="14" height="14" rx="4" fill="#362171"/>
+<rect x="400" y="344" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="400" y="369" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="400" y="394" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="418" y="244" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="418" y="269" width="14" height="14" rx="4" fill="#362171"/>
+<rect x="418" y="269" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="418" y="294" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="418" y="319" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="418" y="344" width="14" height="14" rx="4" fill="#241b45"/>
@@ -217,7 +217,7 @@
 <circle cx="833" cy="242" r="25" fill="#24134e" stroke="#b58cff" stroke-width="1.5"/>
 <text x="833" y="250" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">D</text>
 <text x="857" y="241" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="700">Active days</text>
-<text x="823" y="302" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="32" font-weight="700">33</text>
+<text x="823" y="302" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="32" font-weight="700">32</text>
 <text x="823" y="325" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="11">days</text>
 <path d="M823 331 C847 314 873 344 897 325 S920 340 932 313" fill="none" stroke="#b58cff" stroke-width="1.8" opacity=".9"/>
 <circle cx="932" cy="313" r="3.5" fill="#b58cff" filter="url(#glow)"/>
@@ -234,7 +234,7 @@
 <text x="833" y="410" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">E</text>
 <text x="857" y="394" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="700">Public</text>
 <text x="857" y="407" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="700">events</text>
-<text x="823" y="462" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="32" font-weight="700">64</text>
+<text x="823" y="462" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="32" font-weight="700">63</text>
 <text x="823" y="485" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="11">events</text>
 <path d="M823 491 C847 474 873 504 897 485 S920 500 932 473" fill="none" stroke="#c18cff" stroke-width="1.8" opacity=".9"/>
 <circle cx="932" cy="473" r="3.5" fill="#c18cff" filter="url(#glow)"/>
