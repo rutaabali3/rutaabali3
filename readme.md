@@ -78,18 +78,14 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 <td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/mysql.png" width="80" height="80" alt="MySQL" /><br /><sub>MySQL</sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/phpmyadmin.png" width="80" height="80" alt="phpMyAdmin" /><br /><sub>phpMyAdmin</sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/sqlserver.png" width="80" height="80" alt="SQL Server" /><br /><sub>SQL Server</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/git.png" width="80" height="80" alt="Git" /><br /><sub>Git</sub></td>
-<td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/github.png" width="80" height="80" alt="GitHub" /><br /><sub>GitHub</sub></td>
-</tr>
-<tr>
 <td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/gitlab.png" width="80" height="80" alt="GitLab" /><br /><sub>GitLab</sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/vercel.png" width="80" height="80" alt="Vercel" /><br /><sub>Vercel</sub></td>
+</tr>
+<tr>
 <td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/netlify.png" width="80" height="80" alt="Netlify" /><br /><sub>Netlify</sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/firebase.png" width="80" height="80" alt="Firebase" /><br /><sub>Firebase</sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/openai.png" width="80" height="80" alt="OpenAI" /><br /><sub>OpenAI</sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/anthropic.png" width="80" height="80" alt="Anthropic" /><br /><sub>Anthropic</sub></td>
-</tr>
-<tr>
 <td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/canva.png" width="80" height="80" alt="Canva" /><br /><sub>Canva</sub></td>
 <td align="center"><img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/tech/seo.png" width="80" height="80" alt="SEO" /><br /><sub>SEO</sub></td>
 </tr>
@@ -97,26 +93,17 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 
 </div>
 
-## Contribution activity
+## GitHub automation
 
-<div align="center">
+The profile stays maintained by a small set of transparent GitHub Actions. Each row explains what the workflow does and links directly to its run history, so the automation is easy to inspect instead of appearing as unexplained generated graphics.
 
-<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/output/github-contribution-grid-snake-purple.svg" alt="GitHub contribution snake" width="100%" />
-
-<br />
-
-<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/commit-stats.svg" alt="Commits in the last 24 hours, current streak, most commits in a day, and longest streak" width="100%" />
-
-<br />
-
-<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/profile-stats.svg" alt="Rutaab Ali's GitHub contributor statistics" height="200" />
-<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/language-stats.svg" alt="Most used languages" height="200" />
-
-<br />
-
-<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/profile-details.svg" alt="GitHub profile contribution details" width="100%" />
-
-</div>
+| Workflow | Purpose | Schedule / trigger | Status & logs | More |
+|:--|:--|:--|:--:|:--:|
+| <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" alt="GitHub" /> **Generate Snake** | Builds the purple contribution-grid animation and publishes it to the `output` branch. | Daily, on push to `main`, or manually. | [View runs](https://github.com/rutaabali3/rutaabali3/actions/workflows/snake.yml) | [Open workflow](https://github.com/rutaabali3/rutaabali3/blob/main/.github/workflows/snake.yml) |
+| <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" alt="GitHub" /> **Update Purple Profile Cards** | Refreshes repository, language, profile, and contribution-detail SVG data using the built-in `GITHUB_TOKEN`. | Daily, on push to `main`, or manually. | [View runs](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) | [Open workflow](https://github.com/rutaabali3/rutaabali3/blob/main/.github/workflows/update-profile-cards.yml) |
+| <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" alt="GitHub" /> **Update Commit Activity Stats** | Recalculates recent commits, current streak, best day, and longest streak. | Daily, on push to `main`, or manually. | [View runs](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-commit-stats.yml) | [Open workflow](https://github.com/rutaabali3/rutaabali3/blob/main/.github/workflows/update-commit-stats.yml) |
+| <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" alt="GitHub" /> **Check Profile Panels** | Checks that the published snake and profile assets remain reachable. | Weekly or manually. | [View runs](https://github.com/rutaabali3/rutaabali3/actions/workflows/check-profile-panels.yml) | [Open workflow](https://github.com/rutaabali3/rutaabali3/blob/main/.github/workflows/check-profile-panels.yml) |
+| <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" alt="GitHub" /> **Validate Profile README** | Verifies the portfolio artwork, tech assets, generated files, and README formatting. | On push, pull request, or manually. | [View runs](https://github.com/rutaabali3/rutaabali3/actions/workflows/validate-profile-readme.yml) | [Open workflow](https://github.com/rutaabali3/rutaabali3/blob/main/.github/workflows/validate-profile-readme.yml) |
 
 ## Experience snapshot
 
