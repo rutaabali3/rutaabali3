@@ -98,7 +98,7 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 The tables below replace the former SVG cards. They show the same live GitHub data as readable, separate Markdown tables and refresh automatically.
 
 <!-- LIVE-GITHUB-TABLES:START -->
-_Live GitHub API snapshot · generated automatically · refreshed 2026-08-19 08:27 UTC_
+_Live GitHub API snapshot · generated automatically · refreshed 2026-08-19 08:33 UTC_
 
 ## Commit activity output
 
@@ -129,7 +129,7 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-19 08:
 | PHP | 1,344,358 bytes | 2.3%  | Repository language statistics | Automatic |
 | C# | 602,545 bytes | 1.0%  | Repository language statistics | Automatic |
 | Blade | 491,028 bytes | 0.8%  | Repository language statistics | Automatic |
-| Python | 248,301 bytes | 0.4%  | Repository language statistics | Automatic |
+| Python | 249,000 bytes | 0.4%  | Repository language statistics | Automatic |
 
 ## Profile details output
 
@@ -139,7 +139,23 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-19 08:
 | Active days this year | **32** | Days with at least one commit | Calendar year | Automatic |
 | Best day this year | **11 commits** | Highest daily total | Calendar year | Automatic |
 | Public events | **70** | Recent public GitHub events | Latest API window | Automatic |
+
+| Recent active date | Commits | Activity window | Refresh |
+|:--|--:|:--|:--|
+| 2026-07-23 | 1 | Recent contribution activity | Automatic |
+| 2026-06-29 | 2 | Recent contribution activity | Automatic |
+| 2026-06-22 | 1 | Recent contribution activity | Automatic |
+| 2026-06-17 | 1 | Recent contribution activity | Automatic |
+| 2026-06-12 | 2 | Recent contribution activity | Automatic |
+| 2026-06-10 | 2 | Recent contribution activity | Automatic |
+| 2026-06-03 | 1 | Recent contribution activity | Automatic |
+| 2026-06-02 | 2 | Recent contribution activity | Automatic |
+| 2026-06-01 | 2 | Recent contribution activity | Automatic |
+| 2026-05-19 | 6 | Recent contribution activity | Automatic |
+| 2026-05-04 | 4 | Recent contribution activity | Automatic |
+| 2026-04-30 | 1 | Recent contribution activity | Automatic |
 <!-- LIVE-GITHUB-TABLES:END -->
+
 
 
 
