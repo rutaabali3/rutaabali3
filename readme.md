@@ -136,10 +136,11 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-19 08:
 | Activity detail | Live value | What it represents | Data window | Refresh |
 |:--|--:|:--|:--|:--|
 | Commits this year | **100** | Commits found in 2026 | Calendar year | Automatic |
-| Active days this year | **33** | Days with at least one commit | Calendar year | Automatic |
+| Active days this year | **32** | Days with at least one commit | Calendar year | Automatic |
 | Best day this year | **11 commits** | Highest daily total | Calendar year | Automatic |
-| Public events | **72** | Recent public GitHub events | Latest API window | Automatic |
+| Public events | **70** | Recent public GitHub events | Latest API window | Automatic |
 <!-- LIVE-GITHUB-TABLES:END -->
+
 
 
 
