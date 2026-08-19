@@ -75,9 +75,8 @@ def main() -> None:
         if raw:
             history_days[raw[:10]] += 1
 
-    active_dates = sorted((day for day, count in commit_days.items() if count), reverse=True)
     total_commits = sum(commit_days.values())
-    active_days = len(active_dates)
+    active_days = sum(1 for count in commit_days.values() if count)
     best_day = max(commit_days.values(), default=0)
     all_dates = set(history_days)
     current_streak = 0
@@ -141,11 +140,7 @@ def main() -> None:
         f"| Active days this year | **{active_days:,}** | Days with at least one commit | Calendar year | Automatic |",
         f"| Best day this year | **{best_day:,} commits** | Highest daily total | Calendar year | Automatic |",
         f"| Public events | **{len(api(f'/users/{urllib.parse.quote(OWNER)}/events/public?per_page=100')):,}** | Recent public GitHub events | Latest API window | Automatic |",
-        "",
-        "| Recent active date | Commits | Activity window | Refresh |",
-        "|:--|--:|:--|:--|",
     ])
-    rows.extend(f"| {day} | {commit_days[day]:,} | Recent contribution activity | Automatic |" for day in active_dates[:12])
     rows.extend([END, ""])
 
     content = README.read_text(encoding="utf-8")

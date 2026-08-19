@@ -1,4 +1,4 @@
-name: Update Purple Profile Cards
+name: Update Live Statistics Tables
 
 on:
   schedule:

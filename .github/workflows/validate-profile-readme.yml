@@ -32,10 +32,12 @@ jobs:
           ! grep -qE 'background(-color)?\s*:' readme.md
           grep -q '<!-- LIVE-GITHUB-TABLES:START -->' readme.md
           grep -q '<!-- LIVE-GITHUB-TABLES:END -->' readme.md
-          grep -q '### Commit activity output' readme.md
-          grep -q '### Contributor statistics output' readme.md
-          grep -q '### Language mix output' readme.md
-          grep -q '### Profile details output' readme.md
+          grep -q '^## Commit activity output' readme.md
+          grep -q '^## Contributor statistics output' readme.md
+          grep -q '^## Language mix output' readme.md
+          grep -q '^## Profile details output' readme.md
+          ! grep -q 'Recent active date' readme.md
+          ! grep -q 'Recent contribution activity' readme.md
           ! grep -qE '\.svg|github-contribution-grid-snake' readme.md
           echo "Validated ${#expected[@]} displayed Tech Stack PNGs, the terminal GIF, and four live Markdown statistics tables."
 
