@@ -9,13 +9,13 @@
   <circle cx="52" cy="116" r="12" fill="#8d5cff" opacity=".22"/>
   <circle cx="52" cy="116" r="5" fill="#8d5cff"/>
   <text x="76" y="121" fill="#b58cff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Last 24 hours</text>
-  <text x="48" y="174" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">2</text>
+  <text x="48" y="174" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">0</text>
   <text x="48" y="202" fill="#9e94bb" font-family="Segoe UI,Arial,sans-serif" font-size="12">commits</text>
   <rect x="240" y="82" width="204" height="154" rx="12" fill="#14132f" stroke="#362171"/>
   <circle cx="268" cy="116" r="12" fill="#b58cff" opacity=".22"/>
   <circle cx="268" cy="116" r="5" fill="#b58cff"/>
   <text x="292" y="121" fill="#b58cff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Current streak</text>
-  <text x="264" y="174" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">3</text>
+  <text x="264" y="174" fill="#e5ddff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">0</text>
   <text x="264" y="202" fill="#9e94bb" font-family="Segoe UI,Arial,sans-serif" font-size="12">consecutive days</text>
   <rect x="456" y="82" width="204" height="154" rx="12" fill="#14132f" stroke="#362171"/>
   <circle cx="484" cy="116" r="12" fill="#7047c7" opacity=".22"/>
