@@ -234,7 +234,7 @@
 <text x="833" y="410" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">E</text>
 <text x="857" y="394" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="700">Public</text>
 <text x="857" y="407" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="700">events</text>
-<text x="823" y="462" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="32" font-weight="700">63</text>
+<text x="823" y="462" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="32" font-weight="700">64</text>
 <text x="823" y="485" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="11">events</text>
 <path d="M823 491 C847 474 873 504 897 485 S920 500 932 473" fill="none" stroke="#c18cff" stroke-width="1.8" opacity=".9"/>
 <circle cx="932" cy="473" r="3.5" fill="#c18cff" filter="url(#glow)"/>
