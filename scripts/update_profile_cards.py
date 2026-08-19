@@ -86,6 +86,25 @@ def metric(lines: list[str], x: int, y: int, w: int, h: int, label: str, value: 
     ])
 
 
+def compact_metric(lines: list[str], x: int, y: int, w: int, h: int, label: str, value: str, detail: str, glyph: str, accent: str) -> None:
+    panel(lines, x, y, w, h)
+    icon_badge(lines, x + 28, y + 28, glyph, accent)
+    label_parts = label.split(" ", 1) if len(label) > 12 and " " in label else [label]
+    if len(label_parts) == 2:
+        lines.extend([
+            f'<text x="{x + 52}" y="{y + 20}" fill="{ACCENT_2}" font-family="{FONT}" font-size="10" font-weight="700">{esc(label_parts[0])}</text>',
+            f'<text x="{x + 52}" y="{y + 33}" fill="{ACCENT_2}" font-family="{FONT}" font-size="10" font-weight="700">{esc(label_parts[1])}</text>',
+        ])
+    else:
+        lines.append(f'<text x="{x + 52}" y="{y + 27}" fill="{ACCENT_2}" font-family="{FONT}" font-size="11" font-weight="700">{esc(label)}</text>')
+    lines.extend([
+        f'<text x="{x + 18}" y="{y + 88}" fill="{TEXT}" font-family="{FONT}" font-size="32" font-weight="700">{esc(value)}</text>',
+        f'<text x="{x + 18}" y="{y + 111}" fill="{MUTED}" font-family="{FONT}" font-size="11">{esc(detail)}</text>',
+        f'<path d="M{x + 18} {y + h - 25} C{x + 42} {y + h - 42} {x + 68} {y + h - 12} {x + 92} {y + h - 31} S{x + w - 30} {y + h - 16} {x + w - 18} {y + h - 43}" fill="none" stroke="{accent}" stroke-width="1.8" opacity=".9"/>',
+        f'<circle cx="{x + w - 18}" cy="{y + h - 43}" r="3.5" fill="{accent}" filter="url(#glow)"/>',
+    ])
+
+
 def main() -> None:
     user = api(f"/users/{urllib.parse.quote(OWNER)}")
     repos = api(f"/users/{urllib.parse.quote(OWNER)}/repos?per_page=100&sort=updated")
@@ -134,18 +153,19 @@ def main() -> None:
 
     lines = base(1000, 590, "Profile details", f"Contribution activity · exact terminal palette · refreshed {updated}", "P")
     panel(lines, 28, 138, 565, 410); panel(lines, 615, 138, 357, 410)
-    lines.extend([f'<text x="58" y="180" fill="{TEXT}" font-family="{FONT}" font-size="20" font-weight="700">Commit activity</text>', f'<text x="58" y="208" fill="{MUTED}" font-family="{FONT}" font-size="14">Recent contribution rhythm</text>'])
+    icon_badge(lines, 650, 176, "~", ACCENT)
+    lines.extend([f'<text x="690" y="180" fill="{TEXT}" font-family="{FONT}" font-size="20" font-weight="700">Activity overview</text>', f'<text x="58" y="180" fill="{TEXT}" font-family="{FONT}" font-size="20" font-weight="700">Commit activity</text>', f'<text x="58" y="208" fill="{MUTED}" font-family="{FONT}" font-size="14">Recent contribution rhythm</text>'])
     start = date.today() - timedelta(days=181)
     for index in range(182):
         day = start + timedelta(days=index); col = index // 7; row = index % 7; count = commit_days.get(day.isoformat(), 0)
         color = GRID if count == 0 else (BORDER if count == 1 else ("#7047c7" if count < 4 else ACCENT))
         lines.append(f'<rect x="{58 + col * 18}" y="{244 + row * 25}" width="14" height="14" rx="4" fill="{color}"/>')
-    lines.extend([f'<text x="58" y="454" fill="{MUTED}" font-family="{FONT}" font-size="12">Less</text>', f'<rect x="98" y="444" width="14" height="14" rx="4" fill="{GRID}"/><rect x="120" y="444" width="14" height="14" rx="4" fill="{BORDER}"/><rect x="142" y="444" width="14" height="14" rx="4" fill="#7047c7"/><rect x="164" y="444" width="14" height="14" rx="4" fill="{ACCENT}"/>', f'<text x="190" y="454" fill="{MUTED}" font-family="{FONT}" font-size="12">More</text>', f'<text x="645" y="180" fill="{TEXT}" font-family="{FONT}" font-size="20" font-weight="700">Activity overview</text>'])
+    lines.extend([f'<text x="58" y="454" fill="{MUTED}" font-family="{FONT}" font-size="12">Less</text>', f'<rect x="98" y="444" width="14" height="14" rx="4" fill="{GRID}"/><rect x="120" y="444" width="14" height="14" rx="4" fill="{BORDER}"/><rect x="142" y="444" width="14" height="14" rx="4" fill="#7047c7"/><rect x="164" y="444" width="14" height="14" rx="4" fill="{ACCENT}"/>', f'<text x="190" y="454" fill="{MUTED}" font-family="{FONT}" font-size="12">More</text>'])
     active_days = sum(value > 0 for value in commit_days.values()); total_commits = sum(commit_days.values()); best_day = max(commit_days.values(), default=0)
-    metric(lines, 645, 214, 140, 136, "Commits this year", total_commits, "commits", "C", ACCENT)
-    metric(lines, 815, 214, 140, 136, "Active days", active_days, "days", "D", ACCENT_2)
-    metric(lines, 645, 370, 140, 136, "Best day", best_day, "commits", "*", "#7047c7")
-    metric(lines, 815, 370, 136, 136, "Public events", len(events), "events", "E", "#c18cff")
+    compact_metric(lines, 637, 214, 145, 142, "Commits this year", total_commits, "commits", "C", ACCENT)
+    compact_metric(lines, 805, 214, 145, 142, "Active days", active_days, "days", "D", ACCENT_2)
+    compact_metric(lines, 637, 374, 145, 142, "Best day", best_day, "commits", "*", "#7047c7")
+    compact_metric(lines, 805, 374, 145, 142, "Public events", len(events), "events", "E", "#c18cff")
     write("profile-details.svg", lines)
 
 

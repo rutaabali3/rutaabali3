@@ -14,6 +14,9 @@
 <circle cx="806" cy="74" r="3.5" fill="#c18cff" filter="url(#glow)"/><circle cx="892" cy="87" r="3.5" fill="#8d5cff" filter="url(#glow)"/>
 <rect x="28" y="138" width="565" height="410" rx="18" fill="#14132f" stroke="#362171"/>
 <rect x="615" y="138" width="357" height="410" rx="18" fill="#14132f" stroke="#362171"/>
+<circle cx="650" cy="176" r="25" fill="#24134e" stroke="#8d5cff" stroke-width="1.5"/>
+<text x="650" y="184" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">~</text>
+<text x="690" y="180" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700">Activity overview</text>
 <text x="58" y="180" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700">Commit activity</text>
 <text x="58" y="208" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">Recent contribution rhythm</text>
 <rect x="58" y="244" width="14" height="14" rx="4" fill="#241b45"/>
@@ -66,14 +69,14 @@
 <rect x="166" y="369" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="166" y="394" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="184" y="244" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="184" y="269" width="14" height="14" rx="4" fill="#7047c7"/>
+<rect x="184" y="269" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="184" y="294" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="184" y="319" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="184" y="344" width="14" height="14" rx="4" fill="#362171"/>
+<rect x="184" y="344" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="184" y="369" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="184" y="394" width="14" height="14" rx="4" fill="#7047c7"/>
 <rect x="202" y="244" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="202" y="269" width="14" height="14" rx="4" fill="#241b45"/>
+<rect x="202" y="269" width="14" height="14" rx="4" fill="#7047c7"/>
 <rect x="202" y="294" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="202" y="319" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="202" y="344" width="14" height="14" rx="4" fill="#241b45"/>
@@ -89,7 +92,7 @@
 <rect x="238" y="244" width="14" height="14" rx="4" fill="#362171"/>
 <rect x="238" y="269" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="238" y="294" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="238" y="319" width="14" height="14" rx="4" fill="#241b45"/>
+<rect x="238" y="319" width="14" height="14" rx="4" fill="#7047c7"/>
 <rect x="238" y="344" width="14" height="14" rx="4" fill="#8d5cff"/>
 <rect x="238" y="369" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="238" y="394" width="14" height="14" rx="4" fill="#241b45"/>
@@ -118,9 +121,9 @@
 <rect x="310" y="269" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="310" y="294" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="310" y="319" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="310" y="344" width="14" height="14" rx="4" fill="#7047c7"/>
-<rect x="310" y="369" width="14" height="14" rx="4" fill="#7047c7"/>
-<rect x="310" y="394" width="14" height="14" rx="4" fill="#362171"/>
+<rect x="310" y="344" width="14" height="14" rx="4" fill="#362171"/>
+<rect x="310" y="369" width="14" height="14" rx="4" fill="#362171"/>
+<rect x="310" y="394" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="328" y="244" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="328" y="269" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="328" y="294" width="14" height="14" rx="4" fill="#241b45"/>
@@ -153,11 +156,11 @@
 <rect x="400" y="269" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="400" y="294" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="400" y="319" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="400" y="344" width="14" height="14" rx="4" fill="#241b45"/>
+<rect x="400" y="344" width="14" height="14" rx="4" fill="#362171"/>
 <rect x="400" y="369" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="400" y="394" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="418" y="244" width="14" height="14" rx="4" fill="#241b45"/>
-<rect x="418" y="269" width="14" height="14" rx="4" fill="#241b45"/>
+<rect x="418" y="269" width="14" height="14" rx="4" fill="#362171"/>
 <rect x="418" y="294" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="418" y="319" width="14" height="14" rx="4" fill="#241b45"/>
 <rect x="418" y="344" width="14" height="14" rx="4" fill="#241b45"/>
@@ -201,41 +204,38 @@
 <text x="58" y="454" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="12">Less</text>
 <rect x="98" y="444" width="14" height="14" rx="4" fill="#241b45"/><rect x="120" y="444" width="14" height="14" rx="4" fill="#362171"/><rect x="142" y="444" width="14" height="14" rx="4" fill="#7047c7"/><rect x="164" y="444" width="14" height="14" rx="4" fill="#8d5cff"/>
 <text x="190" y="454" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="12">More</text>
-<text x="645" y="180" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700">Activity overview</text>
-<rect x="645" y="214" width="140" height="136" rx="18" fill="#14132f" stroke="#362171"/>
-<circle cx="685" cy="257" r="25" fill="#24134e" stroke="#8d5cff" stroke-width="1.5"/>
-<text x="685" y="265" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">C</text>
-<text x="723" y="263" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700">Commits this year</text>
-<text x="673" y="332" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="44" font-weight="700">100</text>
-<text x="673" y="361" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">commits</text>
-<path d="M673 322 C717 302 755 338 795 312 S875 340 757 296" fill="none" stroke="#8d5cff" stroke-width="2" opacity=".85"/>
-<circle cx="757" cy="296" r="4" fill="#8d5cff" filter="url(#glow)"/>
-<rect x="646" y="345" width="138" height="4" rx="2" fill="url(#violet)"/>
-<rect x="815" y="214" width="140" height="136" rx="18" fill="#14132f" stroke="#362171"/>
-<circle cx="855" cy="257" r="25" fill="#24134e" stroke="#b58cff" stroke-width="1.5"/>
-<text x="855" y="265" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">D</text>
-<text x="893" y="263" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700">Active days</text>
-<text x="843" y="332" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="44" font-weight="700">32</text>
-<text x="843" y="361" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">days</text>
-<path d="M843 322 C887 302 925 338 965 312 S1045 340 927 296" fill="none" stroke="#b58cff" stroke-width="2" opacity=".85"/>
-<circle cx="927" cy="296" r="4" fill="#b58cff" filter="url(#glow)"/>
-<rect x="816" y="345" width="138" height="4" rx="2" fill="url(#violet)"/>
-<rect x="645" y="370" width="140" height="136" rx="18" fill="#14132f" stroke="#362171"/>
-<circle cx="685" cy="413" r="25" fill="#24134e" stroke="#7047c7" stroke-width="1.5"/>
-<text x="685" y="421" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">*</text>
-<text x="723" y="419" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700">Best day</text>
-<text x="673" y="488" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="44" font-weight="700">11</text>
-<text x="673" y="517" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">commits</text>
-<path d="M673 478 C717 458 755 494 795 468 S875 496 757 452" fill="none" stroke="#7047c7" stroke-width="2" opacity=".85"/>
-<circle cx="757" cy="452" r="4" fill="#7047c7" filter="url(#glow)"/>
-<rect x="646" y="501" width="138" height="4" rx="2" fill="url(#violet)"/>
-<rect x="815" y="370" width="136" height="136" rx="18" fill="#14132f" stroke="#362171"/>
-<circle cx="855" cy="413" r="25" fill="#24134e" stroke="#c18cff" stroke-width="1.5"/>
-<text x="855" y="421" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">E</text>
-<text x="893" y="419" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700">Public events</text>
-<text x="843" y="488" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="44" font-weight="700">60</text>
-<text x="843" y="517" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">events</text>
-<path d="M843 478 C887 458 925 494 965 468 S1045 496 923 452" fill="none" stroke="#c18cff" stroke-width="2" opacity=".85"/>
-<circle cx="923" cy="452" r="4" fill="#c18cff" filter="url(#glow)"/>
-<rect x="816" y="501" width="134" height="4" rx="2" fill="url(#violet)"/>
+<rect x="637" y="214" width="145" height="142" rx="18" fill="#14132f" stroke="#362171"/>
+<circle cx="665" cy="242" r="25" fill="#24134e" stroke="#8d5cff" stroke-width="1.5"/>
+<text x="665" y="250" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">C</text>
+<text x="689" y="234" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="700">Commits</text>
+<text x="689" y="247" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="700">this year</text>
+<text x="655" y="302" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="32" font-weight="700">100</text>
+<text x="655" y="325" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="11">commits</text>
+<path d="M655 331 C679 314 705 344 729 325 S752 340 764 313" fill="none" stroke="#8d5cff" stroke-width="1.8" opacity=".9"/>
+<circle cx="764" cy="313" r="3.5" fill="#8d5cff" filter="url(#glow)"/>
+<rect x="805" y="214" width="145" height="142" rx="18" fill="#14132f" stroke="#362171"/>
+<circle cx="833" cy="242" r="25" fill="#24134e" stroke="#b58cff" stroke-width="1.5"/>
+<text x="833" y="250" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">D</text>
+<text x="857" y="241" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="700">Active days</text>
+<text x="823" y="302" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="32" font-weight="700">33</text>
+<text x="823" y="325" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="11">days</text>
+<path d="M823 331 C847 314 873 344 897 325 S920 340 932 313" fill="none" stroke="#b58cff" stroke-width="1.8" opacity=".9"/>
+<circle cx="932" cy="313" r="3.5" fill="#b58cff" filter="url(#glow)"/>
+<rect x="637" y="374" width="145" height="142" rx="18" fill="#14132f" stroke="#362171"/>
+<circle cx="665" cy="402" r="25" fill="#24134e" stroke="#7047c7" stroke-width="1.5"/>
+<text x="665" y="410" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">*</text>
+<text x="689" y="401" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="700">Best day</text>
+<text x="655" y="462" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="32" font-weight="700">11</text>
+<text x="655" y="485" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="11">commits</text>
+<path d="M655 491 C679 474 705 504 729 485 S752 500 764 473" fill="none" stroke="#7047c7" stroke-width="1.8" opacity=".9"/>
+<circle cx="764" cy="473" r="3.5" fill="#7047c7" filter="url(#glow)"/>
+<rect x="805" y="374" width="145" height="142" rx="18" fill="#14132f" stroke="#362171"/>
+<circle cx="833" cy="402" r="25" fill="#24134e" stroke="#c18cff" stroke-width="1.5"/>
+<text x="833" y="410" text-anchor="middle" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700">E</text>
+<text x="857" y="394" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="700">Public</text>
+<text x="857" y="407" fill="#b58cff" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="700">events</text>
+<text x="823" y="462" fill="#e5ddff" font-family="DejaVu Sans,Arial,sans-serif" font-size="32" font-weight="700">64</text>
+<text x="823" y="485" fill="#9e94bb" font-family="DejaVu Sans,Arial,sans-serif" font-size="11">events</text>
+<path d="M823 491 C847 474 873 504 897 485 S920 500 932 473" fill="none" stroke="#c18cff" stroke-width="1.8" opacity=".9"/>
+<circle cx="932" cy="473" r="3.5" fill="#c18cff" filter="url(#glow)"/>
 </svg>
