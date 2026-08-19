@@ -19,20 +19,20 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Generate exact-theme profile cards
+      - name: Generate live Markdown statistics tables
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
-        run: python3 scripts/update_profile_cards.py
+        run: python3 scripts/update_profile_tables.py
 
-      - name: Commit updated cards
+      - name: Commit updated tables
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/profile-stats.svg assets/language-stats.svg assets/profile-details.svg
+          git add readme.md
           if git diff --staged --quiet; then
-            echo "No profile-card changes detected."
+            echo "No Markdown table changes detected."
           else
-            git commit -m "chore: update purple profile cards [skip ci]"
+            git commit -m "chore: update live GitHub statistics tables [skip ci]"
             git push
           fi

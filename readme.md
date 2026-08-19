@@ -93,17 +93,69 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 
 </div>
 
-## GitHub automation
+## GitHub statistics output
 
-The profile’s automation is shown as an output table: every row has a live status badge, the exact files or checks produced, and direct links to the run logs and workflow source.
+The tables below replace the former SVG cards. They show the same live GitHub data as readable, separate Markdown tables and refresh automatically.
 
-| Workflow | Live status | Actual output | Schedule / trigger | Logs | More |
-|:--|:--:|:--|:--|:--:|:--:|
-| <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" alt="GitHub" /> **Generate Snake** | [![Status](https://github.com/rutaabali3/rutaabali3/actions/workflows/snake.yml/badge.svg)](https://github.com/rutaabali3/rutaabali3/actions/workflows/snake.yml) | [Purple snake SVG](https://raw.githubusercontent.com/rutaabali3/rutaabali3/output/github-contribution-grid-snake-purple.svg) published to `output` | Daily, push to `main`, or manual | [View logs](https://github.com/rutaabali3/rutaabali3/actions/workflows/snake.yml) | [Source](https://github.com/rutaabali3/rutaabali3/blob/main/.github/workflows/snake.yml) |
-| <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" alt="GitHub" /> **Update Purple Profile Cards** | [![Status](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml/badge.svg)](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) | [Profile stats](https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/profile-stats.svg) · [Languages](https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/language-stats.svg) · [Details](https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/profile-details.svg) | Daily, push to `main`, or manual | [View logs](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) | [Source](https://github.com/rutaabali3/rutaabali3/blob/main/.github/workflows/update-profile-cards.yml) |
-| <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" alt="GitHub" /> **Update Commit Activity Stats** | [![Status](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-commit-stats.yml/badge.svg)](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-commit-stats.yml) | [Commit activity SVG](https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/commit-stats.svg) with 24-hour commits, streaks, best day, and longest streak | Daily, push to `main`, or manual | [View logs](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-commit-stats.yml) | [Source](https://github.com/rutaabali3/rutaabali3/blob/main/.github/workflows/update-commit-stats.yml) |
-| <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" alt="GitHub" /> **Check Profile Panels** | [![Status](https://github.com/rutaabali3/rutaabali3/actions/workflows/check-profile-panels.yml/badge.svg)](https://github.com/rutaabali3/rutaabali3/actions/workflows/check-profile-panels.yml) | Reachability check for the snake, profile stats, language, and profile details outputs | Weekly or manual | [View logs](https://github.com/rutaabali3/rutaabali3/actions/workflows/check-profile-panels.yml) | [Source](https://github.com/rutaabali3/rutaabali3/blob/main/.github/workflows/check-profile-panels.yml) |
-| <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="22" alt="GitHub" /> **Validate Profile README** | [![Status](https://github.com/rutaabali3/rutaabali3/actions/workflows/validate-profile-readme.yml/badge.svg)](https://github.com/rutaabali3/rutaabali3/actions/workflows/validate-profile-readme.yml) | Validation result for the README, terminal GIF, displayed tech assets, and generated SVG files | Push, pull request, or manual | [View logs](https://github.com/rutaabali3/rutaabali3/actions/workflows/validate-profile-readme.yml) | [Source](https://github.com/rutaabali3/rutaabali3/blob/main/.github/workflows/validate-profile-readme.yml) |
+<!-- LIVE-GITHUB-TABLES:START -->
+_Live GitHub data · refreshed 2026-08-19 06:00 UTC_
+
+### Commit activity output
+
+| Metric | Value | Meaning | Logs |
+|:--|--:|:--|:--:|
+| Commits in the last 24 hours | **100** | Recent commit activity | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-commit-stats.yml) |
+| Current streak | **0 days** | Consecutive days with commits | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-commit-stats.yml) |
+| Most commits in one day | **11** | Best commit day this year | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-commit-stats.yml) |
+| Longest streak | **4 days** | Longest historical consecutive run | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-commit-stats.yml) |
+
+### Contributor statistics output
+
+| Metric | Value | Meaning | Logs |
+|:--|--:|:--|:--:|
+| Public repositories | **44** | Public repositories owned | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| Followers | **8** | GitHub followers | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| Stars | **20** | Stars across public repositories | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| Forks | **3** | Forks across public repositories | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+
+### Language mix output
+
+| Language | Repository bytes | Share | Logs |
+|:--|--:|--:|:--:|
+| TypeScript | 30,579,364 bytes | 51.7%  | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| HTML | 13,993,771 bytes | 23.7%  | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| CSS | 6,439,392 bytes | 10.9%  | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| JavaScript | 5,300,359 bytes | 9.0%  | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| PHP | 1,344,358 bytes | 2.3%  | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| C# | 602,545 bytes | 1.0%  | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| Blade | 491,028 bytes | 0.8%  | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| Python | 258,896 bytes | 0.4%  | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+
+### Profile details output
+
+| Activity detail | Value | Meaning | Logs |
+|:--|--:|:--|:--:|
+| Commits this year | **100** | Commits found in 2026 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| Active days this year | **33** | Days with at least one commit | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| Best day this year | **11 commits** | Highest daily total | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| Public events | **66** | Recent public GitHub events | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+
+| Recent active date | Commits | Logs |
+|:--|--:|:--:|
+| 2026-07-23 | 1 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| 2026-07-10 | 1 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| 2026-07-06 | 1 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| 2026-06-29 | 2 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| 2026-06-22 | 1 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| 2026-06-17 | 1 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| 2026-06-12 | 2 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| 2026-06-10 | 2 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| 2026-06-02 | 1 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| 2026-06-01 | 1 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| 2026-05-19 | 6 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+| 2026-05-04 | 4 | [Open](https://github.com/rutaabali3/rutaabali3/actions/workflows/update-profile-cards.yml) |
+<!-- LIVE-GITHUB-TABLES:END -->
+
 
 ## Experience snapshot
 
