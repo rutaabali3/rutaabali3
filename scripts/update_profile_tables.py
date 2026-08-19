@@ -29,10 +29,6 @@ def api(path: str):
         return json.load(response)
 
 
-def workflow_url(filename: str) -> str:
-    return f"https://github.com/{OWNER}/{OWNER}/actions/workflows/{filename}"
-
-
 def md_escape(value) -> str:
     return str(value).replace("|", "\\|").replace("\n", " ")
 
@@ -109,47 +105,47 @@ def main() -> None:
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     rows = [
         START,
-        f"_Live GitHub data · refreshed {updated}_",
+        f"_Live GitHub API snapshot · generated automatically · refreshed {updated}_",
         "",
         "### Commit activity output",
         "",
-        "| Metric | Value | Meaning | Logs |",
-        "|:--|--:|:--|:--:|",
-        f"| Commits in the last 24 hours | **{sum(1 for item in commit_items if item.get('commit')):,}** | Recent commit activity | [Open](" + workflow_url("update-commit-stats.yml") + ") |",
-        f"| Current streak | **{current_streak} days** | Consecutive days with commits | [Open](" + workflow_url("update-commit-stats.yml") + ") |",
-        f"| Most commits in one day | **{best_day}** | Best commit day this year | [Open](" + workflow_url("update-commit-stats.yml") + ") |",
-        f"| Longest streak | **{longest_streak} days** | Longest historical consecutive run | [Open](" + workflow_url("update-commit-stats.yml") + ") |",
+        "| Metric | Value | Meaning |",
+        "|:--|--:|:--|",
+        f"| Commits in the last 24 hours | **{sum(1 for item in commit_items if item.get('commit')):,}** | Recent commit activity |",
+        f"| Current streak | **{current_streak} days** | Consecutive days with commits |",
+        f"| Most commits in one day | **{best_day}** | Best commit day this year |",
+        f"| Longest streak | **{longest_streak} days** | Longest historical consecutive run |",
         "",
         "### Contributor statistics output",
         "",
-        "| Metric | Value | Meaning | Logs |",
-        "|:--|--:|:--|:--:|",
-        f"| Public repositories | **{user.get('public_repos', 0):,}** | Public repositories owned | [Open](" + workflow_url("update-profile-cards.yml") + ") |",
-        f"| Followers | **{user.get('followers', 0):,}** | GitHub followers | [Open](" + workflow_url("update-profile-cards.yml") + ") |",
-        f"| Stars | **{stars:,}** | Stars across public repositories | [Open](" + workflow_url("update-profile-cards.yml") + ") |",
-        f"| Forks | **{forks:,}** | Forks across public repositories | [Open](" + workflow_url("update-profile-cards.yml") + ") |",
+        "| Metric | Value | Meaning |",
+        "|:--|--:|:--|",
+        f"| Public repositories | **{user.get('public_repos', 0):,}** | Public repositories owned |",
+        f"| Followers | **{user.get('followers', 0):,}** | GitHub followers |",
+        f"| Stars | **{stars:,}** | Stars across public repositories |",
+        f"| Forks | **{forks:,}** | Forks across public repositories |",
         "",
         "### Language mix output",
         "",
-        "| Language | Repository bytes | Share | Logs |",
-        "|:--|--:|--:|:--:|",
+        "| Language | Repository bytes | Share |",
+        "|:--|--:|--:|",
     ]
-    rows.extend(row[:-1] + " | [Open](" + workflow_url("update-profile-cards.yml") + ") |" for row in language_rows)
+    rows.extend(language_rows)
     rows.extend([
         "",
         "### Profile details output",
         "",
-        "| Activity detail | Value | Meaning | Logs |",
-        "|:--|--:|:--|:--:|",
-        f"| Commits this year | **{total_commits:,}** | Commits found in {year} | [Open](" + workflow_url("update-profile-cards.yml") + ") |",
-        f"| Active days this year | **{active_days:,}** | Days with at least one commit | [Open](" + workflow_url("update-profile-cards.yml") + ") |",
-        f"| Best day this year | **{best_day:,} commits** | Highest daily total | [Open](" + workflow_url("update-profile-cards.yml") + ") |",
-        f"| Public events | **{len(api(f'/users/{urllib.parse.quote(OWNER)}/events/public?per_page=100')):,}** | Recent public GitHub events | [Open](" + workflow_url("update-profile-cards.yml") + ") |",
+        "| Activity detail | Value | Meaning |",
+        "|:--|--:|:--|",
+        f"| Commits this year | **{total_commits:,}** | Commits found in {year} |",
+        f"| Active days this year | **{active_days:,}** | Days with at least one commit |",
+        f"| Best day this year | **{best_day:,} commits** | Highest daily total |",
+        f"| Public events | **{len(api(f'/users/{urllib.parse.quote(OWNER)}/events/public?per_page=100')):,}** | Recent public GitHub events |",
         "",
-        "| Recent active date | Commits | Logs |",
-        "|:--|--:|:--:|",
+        "| Recent active date | Commits |",
+        "|:--|--:|",
     ])
-    rows.extend(f"| {day} | {commit_days[day]:,} | [Open]({workflow_url('update-profile-cards.yml')}) |" for day in active_dates[:12])
+    rows.extend(f"| {day} | {commit_days[day]:,} |" for day in active_dates[:12])
     rows.extend([END, ""])
 
     content = README.read_text(encoding="utf-8")
