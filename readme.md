@@ -98,7 +98,7 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 The tables below replace the former SVG cards. They show the same live GitHub data as readable, separate Markdown tables and refresh automatically.
 
 <!-- LIVE-GITHUB-TABLES:START -->
-_Live GitHub API snapshot · generated automatically · refreshed 2026-08-19 08:12 UTC_
+_Live GitHub API snapshot · generated automatically · refreshed 2026-08-19 08:13 UTC_
 
 ### Commit activity output
 
@@ -136,25 +136,26 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-19 08:
 | Activity detail | Value | Meaning |
 |:--|--:|:--|
 | Commits this year | **100** | Commits found in 2026 |
-| Active days this year | **33** | Days with at least one commit |
+| Active days this year | **32** | Days with at least one commit |
 | Best day this year | **11 commits** | Highest daily total |
-| Public events | **71** | Recent public GitHub events |
+| Public events | **69** | Recent public GitHub events |
 
 | Recent active date | Commits |
 |:--|--:|
 | 2026-07-23 | 1 |
-| 2026-07-10 | 1 |
-| 2026-07-06 | 1 |
 | 2026-06-29 | 2 |
 | 2026-06-22 | 1 |
 | 2026-06-17 | 1 |
 | 2026-06-12 | 2 |
 | 2026-06-10 | 2 |
-| 2026-06-02 | 1 |
-| 2026-06-01 | 1 |
+| 2026-06-03 | 1 |
+| 2026-06-02 | 2 |
+| 2026-06-01 | 2 |
 | 2026-05-19 | 6 |
 | 2026-05-04 | 4 |
+| 2026-04-30 | 1 |
 <!-- LIVE-GITHUB-TABLES:END -->
+
 
 
 
