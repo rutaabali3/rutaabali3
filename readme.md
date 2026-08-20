@@ -98,7 +98,7 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 The tables below replace the former SVG cards. They show the same live GitHub data as readable, separate Markdown tables and refresh automatically.
 
 <!-- LIVE-GITHUB-TABLES:START -->
-_Live GitHub API snapshot · generated automatically · refreshed 2026-08-19 08:38 UTC_
+_Live GitHub API snapshot · generated automatically · refreshed 2026-08-20 04:19 UTC_
 
 ## Commit activity output
 
@@ -114,7 +114,7 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-19 08:
 | Metric | Live value | What it represents | Data basis | Refresh |
 |:--|--:|:--|:--|:--|
 | Public repositories | **44** | Public repositories owned | GitHub profile | Automatic |
-| Followers | **8** | People following this profile | GitHub profile | Automatic |
+| Followers | **9** | People following this profile | GitHub profile | Automatic |
 | Stars | **20** | Stars across public repositories | Repository metadata | Automatic |
 | Forks | **3** | Forks across public repositories | Repository metadata | Automatic |
 
@@ -129,7 +129,7 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-19 08:
 | PHP | 1,344,358 bytes | 2.3%  | Repository language statistics | Automatic |
 | C# | 602,545 bytes | 1.0%  | Repository language statistics | Automatic |
 | Blade | 491,028 bytes | 0.8%  | Repository language statistics | Automatic |
-| Python | 249,000 bytes | 0.4%  | Repository language statistics | Automatic |
+| Python | 248,700 bytes | 0.4%  | Repository language statistics | Automatic |
 
 ## Profile details output
 
@@ -138,8 +138,9 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-19 08:
 | Commits this year | **100** | Commits found in 2026 | Calendar year | Automatic |
 | Active days this year | **32** | Days with at least one commit | Calendar year | Automatic |
 | Best day this year | **11 commits** | Highest daily total | Calendar year | Automatic |
-| Public events | **70** | Recent public GitHub events | Latest API window | Automatic |
+| Public events | **75** | Recent public GitHub events | Latest API window | Automatic |
 <!-- LIVE-GITHUB-TABLES:END -->
+
 
 
 
