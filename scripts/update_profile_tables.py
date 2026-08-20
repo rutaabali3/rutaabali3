@@ -29,6 +29,37 @@ def api(path: str):
         return json.load(response)
 
 
+def search_commits(query: str, sort: str | None = None, max_items: int = 300):
+    """Page through /search/commits, returning (items, total_count).
+
+    total_count comes straight from GitHub's response on every page, so it's
+    accurate even if we stop paginating early. `sort` should be set whenever
+    recency matters (e.g. streak calculations) -- the search endpoint's
+    default order is best-match relevance, not chronological, so leaving it
+    unset silently returns an unpredictable sample of commits.
+    """
+    items: list[dict] = []
+    total_count = 0
+    page = 1
+    while len(items) < max_items:
+        params = f"q={urllib.parse.quote(query)}&per_page=100&page={page}"
+        if sort:
+            params += f"&sort={sort}&order=desc"
+        try:
+            data = api(f"/search/commits?{params}")
+        except Exception:
+            break
+        total_count = data.get("total_count", total_count)
+        batch = data.get("items", [])
+        if not batch:
+            break
+        items.extend(batch)
+        if len(batch) < 100:
+            break
+        page += 1
+    return items, total_count
+
+
 def md_escape(value) -> str:
     return str(value).replace("|", "\\|").replace("\n", " ")
 
@@ -49,35 +80,43 @@ def main() -> None:
         except Exception:
             pass
 
-    year = datetime.now(timezone.utc).year
-    commit_items = []
-    try:
-        query = urllib.parse.quote(f"author:{OWNER} committer-date:>={year}-01-01")
-        commit_items = api(f"/search/commits?q={query}&per_page=100").get("items", [])
-    except Exception:
-        pass
+    now = datetime.now(timezone.utc)
+    year = now.year
+
+    # Real rolling-24h window (previous version reused the year-to-date
+    # query here, so this number was always identical to "commits this
+    # year" -- both landed on the same 100-item page cap).
+    since_24h = (now - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    last24_query = f"author:{OWNER} committer-date:>={since_24h}"
+    _, commits_last_24h = search_commits(last24_query, sort="committer-date")
+
+    # Year-to-date commits. total_count is trusted for the headline number;
+    # the fetched items are only used for the best-day / active-days
+    # breakdown, which is why we still page through a few hundred of them.
+    ytd_query = f"author:{OWNER} committer-date:>={year}-01-01"
+    ytd_items, total_commits = search_commits(ytd_query, sort="committer-date")
 
     commit_days = Counter()
-    for item in commit_items:
+    for item in ytd_items:
         raw = item.get("commit", {}).get("committer", {}).get("date")
         if raw:
             commit_days[raw[:10]] += 1
+    best_day = max(commit_days.values(), default=0)
+    active_days = sum(1 for count in commit_days.values() if count)
 
-    all_commit_items = []
-    try:
-        query = urllib.parse.quote(f"author:{OWNER} committer-date:>={datetime.now(timezone.utc).year - 10}-01-01")
-        all_commit_items = api(f"/search/commits?q={query}&per_page=100").get("items", [])
-    except Exception:
-        pass
+    # Longer history for the streak calc. Sorted by committer-date so the
+    # most recent commits are guaranteed to be in the first page -- without
+    # `sort=committer-date`, the old query returned a best-match sample that
+    # often skipped yesterday/today entirely, which is why "current streak"
+    # was showing 0 days.
+    history_query = f"author:{OWNER} committer-date:>={year - 10}-01-01"
+    history_items, _ = search_commits(history_query, sort="committer-date", max_items=1000)
     history_days = Counter()
-    for item in all_commit_items:
+    for item in history_items:
         raw = item.get("commit", {}).get("committer", {}).get("date")
         if raw:
             history_days[raw[:10]] += 1
 
-    total_commits = sum(commit_days.values())
-    active_days = sum(1 for count in commit_days.values() if count)
-    best_day = max(commit_days.values(), default=0)
     all_dates = set(history_days)
     current_streak = 0
     cursor = date.today()
@@ -86,6 +125,7 @@ def main() -> None:
     while cursor.isoformat() in all_dates:
         current_streak += 1
         cursor -= timedelta(days=1)
+
     longest_streak = 0
     for raw_day in all_dates:
         day = date.fromisoformat(raw_day)
@@ -101,7 +141,7 @@ def main() -> None:
     for language, amount in languages.most_common(8):
         language_rows.append(f"| {md_escape(language)} | {amount:,} bytes | {amount / total_bytes * 100:.1f}% |")
 
-    updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    updated = now.strftime("%Y-%m-%d %H:%M UTC")
     rows = [
         START,
         f"_Live GitHub API snapshot · generated automatically · refreshed {updated}_",
@@ -110,7 +150,7 @@ def main() -> None:
         "",
         "| Metric | Live value | What it represents | Data window | Refresh |",
         "|:--|--:|:--|:--|:--|",
-        f"| Commits in the last 24 hours | **{sum(1 for item in commit_items if item.get('commit')):,}** | Recent commit activity | Rolling 24 hours | Automatic |",
+        f"| Commits in the last 24 hours | **{commits_last_24h:,}** | Recent commit activity | Rolling 24 hours | Automatic |",
         f"| Current streak | **{current_streak} days** | Consecutive days with commits | GitHub history | Automatic |",
         f"| Most commits in one day | **{best_day}** | Highest daily commit total | Current year | Automatic |",
         f"| Longest streak | **{longest_streak} days** | Longest consecutive run | GitHub history | Automatic |",
