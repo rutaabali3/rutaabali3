@@ -98,14 +98,14 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 The tables below replace the former SVG cards. They show the same live GitHub data as readable, separate Markdown tables and refresh automatically.
 
 <!-- LIVE-GITHUB-TABLES:START -->
-_Live GitHub API snapshot · generated automatically · refreshed 2026-08-20 18:25 UTC_
+_Live GitHub API snapshot · generated automatically · refreshed 2026-08-21 04:21 UTC_
 
 ## Commit activity output
 
 | Metric | Live value | What it represents | Data window | Refresh |
 |:--|--:|:--|:--|:--|
-| Commits in the last 24 hours | **0** | Recent commit activity | Rolling 24 hours | Automatic |
-| Current streak | **1 days** | Consecutive days with commits | GitHub history | Automatic |
+| Commits in the last 24 hours | **1** | Recent commit activity | Rolling 24 hours | Automatic |
+| Current streak | **2 days** | Consecutive days with commits | GitHub history | Automatic |
 | Most commits in one day | **26** | Highest daily commit total | Current year | Automatic |
 | Longest streak | **9 days** | Longest consecutive run | GitHub history | Automatic |
 
@@ -113,7 +113,7 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-20 18:
 
 | Metric | Live value | What it represents | Data basis | Refresh |
 |:--|--:|:--|:--|:--|
-| Public repositories | **44** | Public repositories owned | GitHub profile | Automatic |
+| Public repositories | **52** | Public repositories owned | GitHub profile | Automatic |
 | Followers | **9** | People following this profile | GitHub profile | Automatic |
 | Stars | **20** | Stars across public repositories | Repository metadata | Automatic |
 | Forks | **3** | Forks across public repositories | Repository metadata | Automatic |
@@ -122,24 +122,25 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-20 18:
 
 | Language | Repository bytes | Share of detected code | Data basis | Refresh |
 |:--|--:|--:|:--|:--|
-| TypeScript | 30,579,364 bytes | 51.8%  | Repository language statistics | Automatic |
-| HTML | 13,916,145 bytes | 23.6%  | Repository language statistics | Automatic |
-| CSS | 6,439,392 bytes | 10.9%  | Repository language statistics | Automatic |
-| JavaScript | 5,300,359 bytes | 9.0%  | Repository language statistics | Automatic |
-| PHP | 1,344,358 bytes | 2.3%  | Repository language statistics | Automatic |
-| C# | 602,545 bytes | 1.0%  | Repository language statistics | Automatic |
-| Blade | 491,028 bytes | 0.8%  | Repository language statistics | Automatic |
-| Python | 251,149 bytes | 0.4%  | Repository language statistics | Automatic |
+| JavaScript | 42,213,226 bytes | 41.4%  | Repository language statistics | Automatic |
+| TypeScript | 30,929,944 bytes | 30.3%  | Repository language statistics | Automatic |
+| HTML | 17,380,554 bytes | 17.0%  | Repository language statistics | Automatic |
+| CSS | 7,930,673 bytes | 7.8%  | Repository language statistics | Automatic |
+| PHP | 1,344,358 bytes | 1.3%  | Repository language statistics | Automatic |
+| SCSS | 802,144 bytes | 0.8%  | Repository language statistics | Automatic |
+| C# | 565,069 bytes | 0.6%  | Repository language statistics | Automatic |
+| Blade | 491,028 bytes | 0.5%  | Repository language statistics | Automatic |
 
 ## Profile details output
 
 | Activity detail | Live value | What it represents | Data window | Refresh |
 |:--|--:|:--|:--|:--|
-| Commits this year | **363** | Commits found in 2026 | Calendar year | Automatic |
-| Active days this year | **76** | Days with at least one commit | Calendar year | Automatic |
+| Commits this year | **300** | Commits found in 2026 | Calendar year | Automatic |
+| Active days this year | **89** | Days with at least one commit | Calendar year | Automatic |
 | Best day this year | **26 commits** | Highest daily total | Calendar year | Automatic |
-| Public events | **90** | Recent public GitHub events | Latest API window | Automatic |
+| Public events | **100** | Recent public GitHub events | Latest API window | Automatic |
 <!-- LIVE-GITHUB-TABLES:END -->
+
 
 
 
