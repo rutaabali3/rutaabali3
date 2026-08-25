@@ -98,14 +98,14 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 The tables below replace the former SVG cards. They show the same live GitHub data as readable, separate Markdown tables and refresh automatically.
 
 <!-- LIVE-GITHUB-TABLES:START -->
-_Live GitHub API snapshot · generated automatically · refreshed 2026-08-24 04:26 UTC_
+_Live GitHub API snapshot · generated automatically · refreshed 2026-08-25 04:20 UTC_
 
 ## Commit activity output
 
 | Metric | Live value | What it represents | Data window | Refresh |
 |:--|--:|:--|:--|:--|
-| Commits in the last 24 hours | **1** | Recent commit activity | Rolling 24 hours | Automatic |
-| Current streak | **5 days** | Consecutive days with commits | GitHub history | Automatic |
+| Commits in the last 24 hours | **0** | Recent commit activity | Rolling 24 hours | Automatic |
+| Current streak | **0 days** | Consecutive days with commits | GitHub history | Automatic |
 | Most commits in one day | **26** | Highest daily commit total | Current year | Automatic |
 | Longest streak | **9 days** | Longest consecutive run | GitHub history | Automatic |
 
@@ -140,6 +140,7 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-24 04:
 | Best day this year | **26 commits** | Highest daily total | Calendar year | Automatic |
 | Public events | **100** | Recent public GitHub events | Latest API window | Automatic |
 <!-- LIVE-GITHUB-TABLES:END -->
+
 
 
 
