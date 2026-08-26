@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
 
 # Muhammad Rutaab Ali
 
@@ -181,4 +181,4 @@ Have a project in mind, need a website, or want to discuss e-commerce and SEO op
 
 <sub>Building, breaking, and improving—one commit at a time.</sub>
 
-</div>
+</div> -->
