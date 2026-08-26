@@ -4,7 +4,7 @@
 
 ### Web Developer · E-commerce & SEO Specialist
 
-I build **responsive web experiences**, practical **e-commerce tools**, and search-friendly digital products that help ideas become useful.
+I spend my time building **fast, responsive websites** and **e-commerce tools** that actually work. I focus on making sure every line of code helps turn an idea into something people can use.
 
 <p>
   <a href="https://rutaabali3.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-7d46ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
@@ -21,9 +21,9 @@ I build **responsive web experiences**, practical **e-commerce tools**, and sear
 
 ## A little about me
 
-I’m **Muhammad Rutaab Ali**, a web developer who enjoys the intersection of thoughtful interfaces, reliable functionality, and measurable online visibility. My work spans front-end development, PHP and Laravel applications, e-commerce listing management, and SEO-minded content structure.
+I’m **Muhammad Rutaab Ali**. I build things for the web. I like the challenge of taking a complex problem and turning it into a clean, working interface. Whether I'm working with **PHP and Laravel** on the backend or fine-tuning **SEO** to get a site noticed, I focus on building systems that are reliable and easy to use.
 
-> **My approach:** make the experience feel simple, make the system work hard, and make every detail earn its place.
+I don't just write code; I look at the whole picture—from how a user interacts with a page to how a product is listed and discovered on eBay or a company site.
 
 <table>
 <tr>
@@ -31,20 +31,20 @@ I’m **Muhammad Rutaab Ali**, a web developer who enjoys the intersection of th
 
 ### What I do
 
-- Build clean, responsive websites and interactive pages.
-- Develop practical web solutions with JavaScript, PHP, Laravel, and ASP.NET.
-- Manage e-commerce listings, metadata, pricing, and inventory details.
-- Shape search-friendly structures that make content easier to discover.
+- I build websites that look good and work well on any screen.
+- I write clean code using JavaScript, PHP, Laravel, and ASP.NET to solve real problems.
+- I handle the heavy lifting of e-commerce—managing stock, pricing, and listings.
+- I optimize site structures so search engines (and people) can actually find them.
 
 </td>
 <td width="50%" valign="top">
 
 ### Currently focused on
 
-- Improving JavaScript depth and front-end craft.
-- Creating useful digital experiences for real businesses.
-- Exploring better UI patterns and scalable application structure.
-- Turning rough ideas into polished, working interfaces.
+- Getting deeper into JavaScript and modern front-end techniques.
+- Building tools that help local businesses grow their online presence.
+- Learning how to structure larger applications so they stay easy to maintain.
+- Taking a rough concept and building it into a finished, functional product.
 
 </td>
 </tr>
@@ -179,6 +179,6 @@ Have a project in mind, need a website, or want to discuss e-commerce and SEO op
 <br />
 <br />
 
-<sub>Designed with intention. Built with curiosity. Always improving.</sub>
+<sub>Building, breaking, and improving—one commit at a time.</sub>
 
 </div>
