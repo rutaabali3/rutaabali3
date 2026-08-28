@@ -98,14 +98,14 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 The tables below replace the former SVG cards. They show the same live GitHub data as readable, separate Markdown tables and refresh automatically.
 
 <!-- LIVE-GITHUB-TABLES:START -->
-_Live GitHub API snapshot · generated automatically · refreshed 2026-08-27 14:37 UTC_
+_Live GitHub API snapshot · generated automatically · refreshed 2026-08-28 15:38 UTC_
 
 ## Commit activity output
 
 | Metric | Live value | What it represents | Data window | Refresh |
 |:--|--:|:--|:--|:--|
-| Commits in the last 24 hours | **2** | Recent commit activity | Rolling 24 hours | Automatic |
-| Current streak | **1 days** | Consecutive days with commits | GitHub history | Automatic |
+| Commits in the last 24 hours | **0** | Recent commit activity | Rolling 24 hours | Automatic |
+| Current streak | **0 days** | Consecutive days with commits | GitHub history | Automatic |
 | Most commits in one day | **26** | Highest daily commit total | Current year | Automatic |
 | Longest streak | **9 days** | Longest consecutive run | GitHub history | Automatic |
 
@@ -125,7 +125,7 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-27 14:
 | JavaScript | 42,185,151 bytes | 41.4%  | Repository language statistics | Automatic |
 | TypeScript | 30,929,944 bytes | 30.3%  | Repository language statistics | Automatic |
 | HTML | 17,348,837 bytes | 17.0%  | Repository language statistics | Automatic |
-| CSS | 7,917,610 bytes | 7.8%  | Repository language statistics | Automatic |
+| CSS | 7,917,172 bytes | 7.8%  | Repository language statistics | Automatic |
 | PHP | 1,344,358 bytes | 1.3%  | Repository language statistics | Automatic |
 | SCSS | 802,144 bytes | 0.8%  | Repository language statistics | Automatic |
 | C# | 565,069 bytes | 0.6%  | Repository language statistics | Automatic |
@@ -140,6 +140,7 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-27 14:
 | Best day this year | **26 commits** | Highest daily total | Calendar year | Automatic |
 | Public events | **100** | Recent public GitHub events | Latest API window | Automatic |
 <!-- LIVE-GITHUB-TABLES:END -->
+
 
 
 
