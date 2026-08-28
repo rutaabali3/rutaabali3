@@ -1,4 +1,4 @@
-<!-- <div align="center">
+<div align="center">
 
 # Muhammad Rutaab Ali
 
@@ -142,25 +142,6 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-08-28 15:
 <!-- LIVE-GITHUB-TABLES:END -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Experience snapshot
 
 | Period | Focus |
@@ -184,4 +165,4 @@ Have a project in mind, need a website, or want to discuss e-commerce and SEO op
 
 <sub>Building, breaking, and improving—one commit at a time.</sub>
 
-</div> -->
+</div>
