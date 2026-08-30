@@ -15,7 +15,7 @@ I spend my time building **fast, responsive websites** and **e-commerce tools** 
 
 [![Rankistan rank badge](https://img.shields.io/endpoint?url=https%3A%2F%2Frankistan-summary-api.academics-ali.workers.dev%2Fapi%2Fbadge%2Frutaabali3&style=for-the-badge)](https://rankistan.dev/#rutaabali3)
 
-<img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/neon-terminal.gif" alt="Animated terminal showing Rutaab Ali's focus and technology stack" width="100%" />
+<!-- <img src="https://raw.githubusercontent.com/rutaabali3/rutaabali3/main/assets/neon-terminal.gif" alt="Animated terminal showing Rutaab Ali's focus and technology stack" width="100%" /> -->
 
 </div>
 
