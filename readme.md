@@ -101,13 +101,13 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 The tables below replace the former SVG cards. They show the same live GitHub data as readable, separate Markdown tables and refresh automatically.
 
 <!-- LIVE-GITHUB-TABLES:START -->
-_Live GitHub API snapshot · generated automatically · refreshed 2026-09-04 19:38 UTC_
+_Live GitHub API snapshot · generated automatically · refreshed 2026-09-04 20:07 UTC_
 
 ## Commit activity output
 
 | Metric | Live value | What it represents | Data window | Refresh |
 |:--|--:|:--|:--|:--|
-| Commits in the last 24 hours | **40** | Recent commit activity | Rolling 24 hours | Automatic |
+| Commits in the last 24 hours | **38** | Recent commit activity | Rolling 24 hours | Automatic |
 | Current streak | **7 days** | Consecutive days with commits | GitHub history | Automatic |
 | Most commits in one day | **31** | Highest daily commit total | Current year | Automatic |
 | Longest streak | **9 days** | Longest consecutive run | GitHub history | Automatic |
@@ -125,10 +125,10 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-09-04 19:
 
 | Language | Repository bytes | Share of detected code | Data basis | Refresh |
 |:--|--:|--:|:--|:--|
-| HTML | 11,900,338 bytes | 36.8%  | Repository language statistics | Automatic |
+| HTML | 11,900,348 bytes | 36.8%  | Repository language statistics | Automatic |
 | TypeScript | 6,672,918 bytes | 20.6%  | Repository language statistics | Automatic |
 | CSS | 6,029,963 bytes | 18.6%  | Repository language statistics | Automatic |
-| JavaScript | 5,320,092 bytes | 16.4%  | Repository language statistics | Automatic |
+| JavaScript | 5,320,125 bytes | 16.4%  | Repository language statistics | Automatic |
 | PHP | 1,344,358 bytes | 4.2%  | Repository language statistics | Automatic |
 | Blade | 491,028 bytes | 1.5%  | Repository language statistics | Automatic |
 | C# | 310,864 bytes | 1.0%  | Repository language statistics | Automatic |
@@ -138,11 +138,12 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-09-04 19:
 
 | Activity detail | Live value | What it represents | Data window | Refresh |
 |:--|--:|:--|:--|:--|
-| Commits this year | **393** | Commits found in 2026 | Calendar year | Automatic |
+| Commits this year | **394** | Commits found in 2026 | Calendar year | Automatic |
 | Active days this year | **63** | Days with at least one commit | Calendar year | Automatic |
 | Best day this year | **31 commits** | Highest daily total | Calendar year | Automatic |
 | Public events | **100** | Recent public GitHub events | Latest API window | Automatic |
 <!-- LIVE-GITHUB-TABLES:END -->
+
 
 
 
