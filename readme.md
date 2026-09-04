@@ -7,10 +7,10 @@
 I spend my time building **fast, responsive websites** and **e-commerce tools** that actually work. I focus on making sure every line of code helps turn an idea into something people can use.
 
 <p>
-  <a href="https://rutaabali3.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-7d46ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://rutaabali3-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-7d46ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:rutaabali3@gmail.com"><img src="https://img.shields.io/badge/Email-ff5f7e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/rutaabali3"><img src="https://img.shields.io/badge/GitHub-15132b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://rutaabali3.vercel.app/resume.pdf"><img src="https://img.shields.io/badge/Resume-ffb000?style=for-the-badge&logo=adobeacrobatreader&logoColor=black" alt="Resume" /></a>
+  <a href="https://rutaabali3-portfolio.vercel.app/resume.pdf"><img src="https://img.shields.io/badge/Resume-ffb000?style=for-the-badge&logo=adobeacrobatreader&logoColor=black" alt="Resume" /></a>
 </p>
 
 [![Rankistan rank badge](https://img.shields.io/endpoint?url=https%3A%2F%2Frankistan-summary-api.academics-ali.workers.dev%2Fapi%2Fbadge%2Frutaabali3&style=for-the-badge)](https://rankistan.dev/#rutaabali3)
@@ -172,7 +172,7 @@ Have a project in mind, need a website, or want to discuss e-commerce and SEO op
 
 <div align="center">
 
-<a href="https://rutaabali3.vercel.app/"><strong>Visit my portfolio →</strong></a>
+<a href="https://rutaabali3-portfolio.vercel.app/"><strong>Visit my portfolio →</strong></a>
 
 <br />
 <br />
