@@ -101,14 +101,14 @@ The same colorful technology artwork used in the portfolio’s **Tech Stack** se
 The tables below replace the former SVG cards. They show the same live GitHub data as readable, separate Markdown tables and refresh automatically.
 
 <!-- LIVE-GITHUB-TABLES:START -->
-_Live GitHub API snapshot · generated automatically · refreshed 2026-09-04 20:07 UTC_
+_Live GitHub API snapshot · generated automatically · refreshed 2026-09-05 07:50 UTC_
 
 ## Commit activity output
 
 | Metric | Live value | What it represents | Data window | Refresh |
 |:--|--:|:--|:--|:--|
-| Commits in the last 24 hours | **38** | Recent commit activity | Rolling 24 hours | Automatic |
-| Current streak | **7 days** | Consecutive days with commits | GitHub history | Automatic |
+| Commits in the last 24 hours | **21** | Recent commit activity | Rolling 24 hours | Automatic |
+| Current streak | **8 days** | Consecutive days with commits | GitHub history | Automatic |
 | Most commits in one day | **31** | Highest daily commit total | Current year | Automatic |
 | Longest streak | **9 days** | Longest consecutive run | GitHub history | Automatic |
 
@@ -117,7 +117,7 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-09-04 20:
 | Metric | Live value | What it represents | Data basis | Refresh |
 |:--|--:|:--|:--|:--|
 | Public repositories | **37** | Public repositories owned | GitHub profile | Automatic |
-| Followers | **33** | People following this profile | GitHub profile | Automatic |
+| Followers | **39** | People following this profile | GitHub profile | Automatic |
 | Stars | **63** | Stars across public repositories | Repository metadata | Automatic |
 | Forks | **4** | Forks across public repositories | Repository metadata | Automatic |
 
@@ -138,11 +138,12 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-09-04 20:
 
 | Activity detail | Live value | What it represents | Data window | Refresh |
 |:--|--:|:--|:--|:--|
-| Commits this year | **394** | Commits found in 2026 | Calendar year | Automatic |
+| Commits this year | **397** | Commits found in 2026 | Calendar year | Automatic |
 | Active days this year | **63** | Days with at least one commit | Calendar year | Automatic |
 | Best day this year | **31 commits** | Highest daily total | Calendar year | Automatic |
 | Public events | **100** | Recent public GitHub events | Latest API window | Automatic |
 <!-- LIVE-GITHUB-TABLES:END -->
+
 
 
 
