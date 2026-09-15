@@ -1,7 +1,7 @@
 <div align="center">
 <img width="1859" height="335" alt="CITYPNG COM HD Bismilah بسم الله الرحمان الرحيم Basmalah White Text PNG - 2000x2000" src="https://github.com/user-attachments/assets/f30aa340-9166-46de-9f64-0c5ca802717d" />
 
-# Muhammad Rutaab Ali
+# Muhammad Rutaab Ali 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=rutaabali3.rutaabali3&left_text=visitors&left_color=%23388bff&right_color=%23378bff&logo=github&radius=0&height=27)
 ![followers](https://img.shields.io/github/followers/rutaabali3?label=Followers&style=for-the-badge&logo=github&logoColor=white&color=blue&labelColor=blue&radius=0&height=27)
 ### Deep Thinker · Vibe Coder · Web Developer · E-commerce & SEO
