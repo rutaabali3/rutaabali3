@@ -27,8 +27,8 @@ jobs:
 
       - name: Commit updated tables
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "rutaabali3"
+          git config user.email "rutaabali3@gmail.com"
           git add readme.md
           if git diff --staged --quiet; then
             echo "No Markdown table changes detected."
