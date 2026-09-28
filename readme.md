@@ -137,36 +137,6 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-09-27 18:
 | Public events | **100** | Recent public GitHub events | Latest API window | Automatic |
 <!-- LIVE-GITHUB-TABLES:END -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Experience snapshot
-
-| Period | Focus |
-|:--|:--|
-| **2023 – 2024** | Social media sales and customer support — managing inquiries, resolving customer questions, responding to leads, and securing sales orders. |
-| **2024 – Present** | E-commerce and listing management for the company website — optimizing product descriptions and pricing, and updating inventory. |
-| **2024 – Present** | Search engine optimization — using keyword analysis and metadata optimization to improve product search visibility. |
-| **2024 – Present** | E-commerce and listing management on eBay — updating stock, descriptions, and pricing. |
-| **2025 – Present** | Content assistance — creating video and image content to promote products and organizing digital assets. |
-
 ## Let’s build something useful
 
 Have a project in mind, need a website, or want to discuss e-commerce and SEO optimization? I’d be glad to hear what you’re working on.
