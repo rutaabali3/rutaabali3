@@ -94,13 +94,13 @@ My **Tools** and **Tech Stack** section.
 ## GitHub statistics output
 
 <!-- LIVE-GITHUB-TABLES:START -->
-_Live GitHub API snapshot · generated automatically · refreshed 2026-10-07 10:33 UTC_
+_Live GitHub API snapshot · generated automatically · refreshed 2026-10-08 10:54 UTC_
 
 ## Commit activity output
 
 | Metric | Live value | What it represents | Data window | Refresh |
 |:--|--:|:--|:--|:--|
-| Commits in the last 24 hours | **8** | Recent commit activity | Rolling 24 hours | Automatic |
+| Commits in the last 24 hours | **1** | Recent commit activity | Rolling 24 hours | Automatic |
 | Current streak | **40 days** | Consecutive days with commits | GitHub history | Automatic |
 | Most commits in one day | **71** | Highest daily commit total | Current year | Automatic |
 | Longest streak | **40 days** | Longest consecutive run | GitHub history | Automatic |
@@ -110,7 +110,7 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-10-07 10:
 | Metric | Live value | What it represents | Data basis | Refresh |
 |:--|--:|:--|:--|:--|
 | Public repositories | **43** | Public repositories owned | GitHub profile | Automatic |
-| Followers | **88** | People following this profile | GitHub profile | Automatic |
+| Followers | **87** | People following this profile | GitHub profile | Automatic |
 | Stars | **135** | Stars across public repositories | Repository metadata | Automatic |
 | Forks | **5** | Forks across public repositories | Repository metadata | Automatic |
 
@@ -118,24 +118,25 @@ _Live GitHub API snapshot · generated automatically · refreshed 2026-10-07 10:
 
 | Language | Repository bytes | Share of detected code | Data basis | Refresh |
 |:--|--:|--:|:--|:--|
-| HTML | 12,590,785 bytes | 36.2%  | Repository language statistics | Automatic |
-| TypeScript | 6,919,199 bytes | 19.9%  | Repository language statistics | Automatic |
-| CSS | 6,713,284 bytes | 19.3%  | Repository language statistics | Automatic |
-| JavaScript | 5,678,639 bytes | 16.3%  | Repository language statistics | Automatic |
+| HTML | 12,590,785 bytes | 35.9%  | Repository language statistics | Automatic |
+| TypeScript | 6,919,199 bytes | 19.7%  | Repository language statistics | Automatic |
+| CSS | 6,713,284 bytes | 19.1%  | Repository language statistics | Automatic |
+| JavaScript | 5,678,639 bytes | 16.2%  | Repository language statistics | Automatic |
 | PHP | 1,352,742 bytes | 3.9%  | Repository language statistics | Automatic |
 | Blade | 491,028 bytes | 1.4%  | Repository language statistics | Automatic |
+| Jupyter Notebook | 370,515 bytes | 1.1%  | Repository language statistics | Automatic |
 | C# | 308,215 bytes | 0.9%  | Repository language statistics | Automatic |
-| Python | 268,365 bytes | 0.8%  | Repository language statistics | Automatic |
 
 ## Profile details output
 
 | Activity detail | Live value | What it represents | Data window | Refresh |
 |:--|--:|:--|:--|:--|
-| Commits this year | **588** | Commits found in 2026 | Calendar year | Automatic |
+| Commits this year | **590** | Commits found in 2026 | Calendar year | Automatic |
 | Active days this year | **39** | Days with at least one commit | Calendar year | Automatic |
 | Best day this year | **71 commits** | Highest daily total | Calendar year | Automatic |
 | Public events | **100** | Recent public GitHub events | Latest API window | Automatic |
 <!-- LIVE-GITHUB-TABLES:END -->
+
 
 
 
